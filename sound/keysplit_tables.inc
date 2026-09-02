@@ -33,3 +33,60 @@ keysplit tuba, 24
 keysplit french_horn, 36
 	split 0, 66
 	split 1, 108
+
+keysplit bw_keysplit_0, 0
+    split 0, 70
+    split 1, 77
+    split 2, 128
+
+keysplit bw_keysplit_10, 0
+    split 0, 80
+    split 1, 128
+
+keysplit bw_keysplit_29, 0
+    split 0, 43
+    split 1, 128
+
+keysplit bw_keysplit_30, 0
+    split 0, 66
+    split 1, 75
+    split 2, 82
+    split 3, 128
+
+keysplit bw_keysplit_35, 0
+    split 0, 75
+    split 1, 127
+
+keysplit bw_keysplit_36, 0
+    split 0, 55
+    split 1, 67
+    split 2, 128
+
+keysplit bw_keysplit_39, 0
+    split 0, 65
+    split 1, 74
+    split 2, 128
+
+keysplit bw_keysplit_40, 0
+    split 0, 48
+    split 1, 127
+
+keysplit bw_keysplit_42, 0
+    split 0, 59
+    split 1, 68
+    split 2, 128
+
+keysplit bw_keysplit_44, 0
+    split 0, 77
+    split 1, 127
+
+keysplit bw_keysplit_56, 0
+    split 0, 65
+    split 1, 74
+    split 2, 127
+
+keysplit bw_keysplit_90, 0
+    split 0, 55
+    split 1, 63
+    split 2, 70
+    split 3, 128

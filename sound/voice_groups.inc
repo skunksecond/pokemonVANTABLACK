@@ -5,6 +5,7 @@
 .include "sound/voicegroups/drumsets/frlg.inc"
 .include "sound/voicegroups/drumsets/emerald_1.inc"
 .include "sound/voicegroups/drumsets/emerald_2.inc"
+.include "sound/voicegroups/drumsets/bw_1.inc"
 
 @ key splits
 .include "sound/voicegroups/keysplits/piano.inc"
@@ -13,6 +14,18 @@
 .include "sound/voicegroups/unused.inc"
 .include "sound/voicegroups/keysplits/tuba.inc"
 .include "sound/voicegroups/keysplits/french_horn.inc"
+.include "sound/voicegroups/keysplits/bw_keysplit_0.inc"
+.include "sound/voicegroups/keysplits/bw_keysplit_10.inc"
+.include "sound/voicegroups/keysplits/bw_keysplit_29.inc"
+.include "sound/voicegroups/keysplits/bw_keysplit_30.inc"
+.include "sound/voicegroups/keysplits/bw_keysplit_35.inc"
+.include "sound/voicegroups/keysplits/bw_keysplit_36.inc"
+.include "sound/voicegroups/keysplits/bw_keysplit_39.inc"
+.include "sound/voicegroups/keysplits/bw_keysplit_40.inc"
+.include "sound/voicegroups/keysplits/bw_keysplit_42.inc"
+.include "sound/voicegroups/keysplits/bw_keysplit_44.inc"
+.include "sound/voicegroups/keysplits/bw_keysplit_56.inc"
+.include "sound/voicegroups/keysplits/bw_keysplit_90.inc"
 
 .include "sound/voicegroups/route110.inc"
 .include "sound/voicegroups/route101.inc"
@@ -201,3 +214,4 @@
 .include "sound/voicegroups/rg_sevii_45.inc"
 .include "sound/voicegroups/rg_sevii_67.inc"
 .include "sound/voicegroups/drumsets/rg_credits.inc"
+.include "sound/voicegroups/bw_soundfont1.inc"

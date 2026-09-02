@@ -4261,7 +4261,12 @@ static void DebugAction_DestroyFollowerNPC(u8 taskId)
     X(MUS_RG_ENCOUNTER_DEOXYS)      \
     X(MUS_RG_TRAINER_TOWER)         \
     X(MUS_RG_SLOW_PALLET)           \
-    X(MUS_RG_TEACHY_TV_MENU)
+    X(MUS_RG_TEACHY_TV_MENU)        \
+    X(MUS_SEQ_BGM_NAMINORI)         \
+    X(MUS_BW_SURF)                  \
+    X(MUS_SEQ_BGM_PLEASURE_BOAT)    \
+    X(MUS_SEQ_BGM_POKEMON_THEME)    \
+    X(MUS_SEQ_BGM_VS_RIVAL)
 
 #define SOUND_LIST_SE               \
     X(SE_USE_ITEM)                  \

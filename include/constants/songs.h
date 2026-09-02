@@ -542,6 +542,11 @@
 #define PH_NURSE_BLEND              607
 #define PH_NURSE_HELD               608
 #define PH_NURSE_SOLO               609
+#define MUS_SEQ_BGM_NAMINORI        610
+#define MUS_BW_SURF                 611
+#define MUS_SEQ_BGM_PLEASURE_BOAT   612
+#define MUS_SEQ_BGM_POKEMON_THEME   613
+#define MUS_SEQ_BGM_VS_RIVAL        614
 
 #define MUS_ROUTE118                0x7FFF  // Map is split into 2 music sections. controlled by GetCurrLocationDefaultMusic().
 
