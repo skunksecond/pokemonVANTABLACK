@@ -1,4 +1,4 @@
-voice_group bw_soundfont1
+voice_group n_battle
 	voice_keysplit voicegroup_bw_0_keysplit, keysplit_bw_keysplit_0
 	voice_square_1 60, 0, 0, 2, 0, 1, 4, 1
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
@@ -16,16 +16,16 @@ voice_group bw_soundfont1
 	voice_directsound 60, 0, DirectSoundWaveData_poketheme_25, 255, 0, 255, 165
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
+	voice_keysplit voicegroup_n_final_17, keysplit_nfinal_17
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
-	voice_keysplit voicegroup_bw_19_keysplit, keysplit_bw_keysplit_19
-	voice_keysplit voicegroup_bw_20_keysplit, keysplit_bw_keysplit_20
+	voice_square_1 60, 0, 0, 2, 0, 1, 4, 1
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_directsound 60, 0, DirectSoundWaveData_vsrival_25, 255, 0, 255, 165
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_directsound 60, 0, DirectSoundWaveData_poketheme_0, 255, 0, 255, 165
-	voice_keysplit voicegroup_bw_26_keysplit, keysplit_bw_keysplit_26
+	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_directsound 60, 0, DirectSoundWaveData_nfinal_28, 255, 0, 255, 165
 	voice_keysplit voicegroup_bw_29_keysplit, keysplit_bw_keysplit_29
@@ -42,7 +42,7 @@ voice_group bw_soundfont1
 	voice_keysplit voicegroup_bw_40_keysplit, keysplit_bw_keysplit_40
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_keysplit voicegroup_bw_42_keysplit, keysplit_bw_keysplit_42
-	voice_keysplit voicegroup_bw_43_keysplit, keysplit_bw_keysplit_43
+	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_keysplit voicegroup_bw_44_keysplit, keysplit_bw_keysplit_44
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_directsound 60, 0, DirectSoundWaveData_vsrival_26, 255, 0, 255, 165
@@ -62,7 +62,7 @@ voice_group bw_soundfont1
 	voice_directsound 60, 0, DirectSoundWaveData_poketheme_15, 255, 0, 255, 165
 	voice_directsound 60, 0, DirectSoundWaveData_vsrival_31, 255, 0, 255, 165
 	voice_directsound 60, 0, DirectSoundWaveData_poketheme_5, 255, 0, 255, 165
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
+	voice_keysplit voicegroup_n_final_63, keysplit_nfinal_63
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
@@ -79,8 +79,8 @@ voice_group bw_soundfont1
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
-	voice_keysplit_all voicegroup_bw_1
-	voice_keysplit_all voicegroup_bw_2
+	voice_keysplit_all voicegroup_n_drumset
+	voice_directsound 60, 0, DirectSoundWaveData_nfinal_6, 255, 0, 255, 165
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_directsound 60, 0, DirectSoundWaveData_nfinal_20, 255, 0, 255, 165
 	voice_directsound 60, 0, DirectSoundWaveData_nfinal_26, 255, 0, 255, 165
@@ -126,4 +126,4 @@ voice_group bw_soundfont1
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_keysplit_all voicegroup_bw_2
-	voice_directsound 60, 0, DirectSoundWaveData_route6_22, 255, 0, 255, 165
+	voice_directsound 60, 0, DirectSoundWaveData_nfinal_23, 255, 0, 255, 165

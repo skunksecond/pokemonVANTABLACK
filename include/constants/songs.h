@@ -547,6 +547,12 @@
 #define MUS_SEQ_BGM_PLEASURE_BOAT   612
 #define MUS_SEQ_BGM_POKEMON_THEME   613
 #define MUS_SEQ_BGM_VS_RIVAL        614
+#define MUS_SEQ_BGM_VS_NORAPOKE     615
+#define MUS_SEQ_BGM_D_05            616
+#define MUS_SEQ_BGM_VS_N_2          617
+#define MUS_SEQ_BGM_R_F             618
+#define MUS_SEQ_BGM_BATTLESUPERIOR_BW2 619
+#define MUS_SEQ_BGM_R_D_SP          620
 
 #define MUS_ROUTE118                0x7FFF  // Map is split into 2 music sections. controlled by GetCurrLocationDefaultMusic().
 

@@ -9285,3 +9285,253 @@ DirectSoundWaveData_vsrival_23::
 	.align 2
 DirectSoundWaveData_vsrival_31::
 	.incbin "sound/direct_sound_samples/vsrival_31.bin"
+
+	.align 2
+DirectSoundWaveData_vsrival_10::
+	.incbin "sound/direct_sound_samples/vsrival_10.bin"
+
+	.align 2
+DirectSoundWaveData_vsrival_12::
+	.incbin "sound/direct_sound_samples/vsrival_12.bin"
+
+	.align 2
+DirectSoundWaveData_vsrival_13::
+	.incbin "sound/direct_sound_samples/vsrival_13.bin"
+
+	.align 2
+DirectSoundWaveData_vsrival_14::
+	.incbin "sound/direct_sound_samples/vsrival_14.bin"
+
+	.align 2
+DirectSoundWaveData_vsrival_16::
+	.incbin "sound/direct_sound_samples/vsrival_16.bin"
+
+	.align 2
+DirectSoundWaveData_vsrival_18::
+	.incbin "sound/direct_sound_samples/vsrival_18.bin"
+
+	.align 2
+DirectSoundWaveData_vsrival_19::
+	.incbin "sound/direct_sound_samples/vsrival_19.bin"
+
+	.align 2
+DirectSoundWaveData_vsrival_27::
+	.incbin "sound/direct_sound_samples/vsrival_27.bin"
+
+	.align 2
+DirectSoundWaveData_vsrival_28::
+	.incbin "sound/direct_sound_samples/vsrival_28.bin"
+
+	.align 2
+DirectSoundWaveData_vsrival_29::
+	.incbin "sound/direct_sound_samples/vsrival_29.bin"
+
+	.align 2
+DirectSoundWaveData_vsrival_30::
+	.incbin "sound/direct_sound_samples/vsrival_30.bin"
+
+	.align 2
+DirectSoundWaveData_vsrival_6::
+	.incbin "sound/direct_sound_samples/vsrival_6.bin"
+
+	.align 2
+DirectSoundWaveData_vsrival_7::
+	.incbin "sound/direct_sound_samples/vsrival_7.bin"
+
+	.align 2
+DirectSoundWaveData_vsrival_8::
+	.incbin "sound/direct_sound_samples/vsrival_8.bin"
+
+	.align 2
+DirectSoundWaveData_vsrival_9::
+	.incbin "sound/direct_sound_samples/vsrival_9.bin"
+
+
+
+	.align 2
+DirectSoundWaveData_vsrival_0::
+	.incbin "sound/direct_sound_samples/vsrival_0.bin"
+
+	.align 2
+DirectSoundWaveData_vsrival_1::
+	.incbin "sound/direct_sound_samples/vsrival_1.bin"
+
+	.align 2
+DirectSoundWaveData_vsrival_2::
+	.incbin "sound/direct_sound_samples/vsrival_2.bin"
+
+	.align 2
+DirectSoundWaveData_vsrival_20::
+	.incbin "sound/direct_sound_samples/vsrival_20.bin"
+
+	.align 2
+DirectSoundWaveData_vsrival_21::
+	.incbin "sound/direct_sound_samples/vsrival_21.bin"
+
+	.align 2
+DirectSoundWaveData_vsrival_22::
+	.incbin "sound/direct_sound_samples/vsrival_22.bin"
+
+	.align 2
+DirectSoundWaveData_norapoke_1::
+	.incbin "sound/direct_sound_samples/norapoke_1.bin"
+
+	.align 2
+DirectSoundWaveData_norapoke_2::
+	.incbin "sound/direct_sound_samples/norapoke_2.bin"
+
+	.align 2
+DirectSoundWaveData_norapoke_3::
+	.incbin "sound/direct_sound_samples/norapoke_3.bin"
+
+	.align 2
+DirectSoundWaveData_dragspire_0::
+	.incbin "sound/direct_sound_samples/dragspire_0.bin"
+
+	.align 2
+DirectSoundWaveData_dragspire_1::
+	.incbin "sound/direct_sound_samples/dragspire_1.bin"
+
+	.align 2
+DirectSoundWaveData_nfinal_19::
+	.incbin "sound/direct_sound_samples/nfinal_19.bin"
+
+	.align 2
+DirectSoundWaveData_nfinal_28::
+	.incbin "sound/direct_sound_samples/nfinal_28.bin"
+
+	.align 2
+DirectSoundWaveData_nfinal_25::
+	.incbin "sound/direct_sound_samples/nfinal_25.bin"
+
+	.align 2
+DirectSoundWaveData_nfinal_20::
+	.incbin "sound/direct_sound_samples/nfinal_20.bin"
+
+	.align 2
+DirectSoundWaveData_nfinal_26::
+	.incbin "sound/direct_sound_samples/nfinal_26.bin"
+
+	.align 2
+DirectSoundWaveData_nfinal_31::
+	.incbin "sound/direct_sound_samples/nfinal_31.bin"
+
+	.align 2
+DirectSoundWaveData_nfinal_8::
+	.incbin "sound/direct_sound_samples/nfinal_8.bin"
+
+	.align 2
+DirectSoundWaveData_nfinal_1::
+	.incbin "sound/direct_sound_samples/nfinal_1.bin"
+
+	.align 2
+DirectSoundWaveData_nfinal_0::
+	.incbin "sound/direct_sound_samples/nfinal_0.bin"
+
+	.align 2
+DirectSoundWaveData_nfinal_13::
+	.incbin "sound/direct_sound_samples/nfinal_13.bin"
+
+	.align 2
+DirectSoundWaveData_nfinal_10::
+	.incbin "sound/direct_sound_samples/nfinal_10.bin"
+
+	.align 2
+DirectSoundWaveData_nfinal_11::
+	.incbin "sound/direct_sound_samples/nfinal_11.bin"
+
+	.align 2
+DirectSoundWaveData_nfinal_9::
+	.incbin "sound/direct_sound_samples/nfinal_9.bin"
+
+	.align 2
+DirectSoundWaveData_nfinal_5::
+	.incbin "sound/direct_sound_samples/nfinal_5.bin"
+
+	.align 2
+DirectSoundWaveData_nfinal_6::
+	.incbin "sound/direct_sound_samples/nfinal_6.bin"
+
+	.align 2
+DirectSoundWaveData_nfinal_22::
+	.incbin "sound/direct_sound_samples/nfinal_22.bin"
+
+	.align 2
+DirectSoundWaveData_nfinal_23::
+	.incbin "sound/direct_sound_samples/nfinal_23.bin"
+
+	.align 2
+DirectSoundWaveData_nfinal_2::
+	.incbin "sound/direct_sound_samples/nfinal_2.bin"
+
+	.align 2
+DirectSoundWaveData_nfinal_3::
+	.incbin "sound/direct_sound_samples/nfinal_3.bin"
+
+	.align 2
+DirectSoundWaveData_nfinal_4::
+	.incbin "sound/direct_sound_samples/nfinal_4.bin"
+
+	.align 2
+DirectSoundWaveData_route10_0::
+	.incbin "sound/direct_sound_samples/route10_0.bin"
+
+	.align 2
+DirectSoundWaveData_route10_1::
+	.incbin "sound/direct_sound_samples/route10_1.bin"
+
+	.align 2
+DirectSoundWaveData_route10_2::
+	.incbin "sound/direct_sound_samples/route10_2.bin"
+
+	.align 2
+DirectSoundWaveData_route10_4::
+	.incbin "sound/direct_sound_samples/route10_4.bin"
+
+	.align 2
+DirectSoundWaveData_route10_5::
+	.incbin "sound/direct_sound_samples/route10_5.bin"
+
+	.align 2
+DirectSoundWaveData_route10_8::
+	.incbin "sound/direct_sound_samples/route10_8.bin"
+
+	.align 2
+DirectSoundWaveData_route10_9::
+	.incbin "sound/direct_sound_samples/route10_9.bin"
+
+	.align 2
+DirectSoundWaveData_route10_10::
+	.incbin "sound/direct_sound_samples/route10_10.bin"
+
+	.align 2
+DirectSoundWaveData_route10_13::
+	.incbin "sound/direct_sound_samples/route10_13.bin"
+
+	.align 2
+DirectSoundWaveData_route10_14::
+	.incbin "sound/direct_sound_samples/route10_14.bin"
+
+	.align 2
+DirectSoundWaveData_bw2_battlesuperior_4::
+	.incbin "sound/direct_sound_samples/bw2_battlesuperior_4.bin"
+
+	.align 2
+DirectSoundWaveData_bw2_battlesuperior_22::
+	.incbin "sound/direct_sound_samples/bw2_battlesuperior_22.bin"
+
+	.align 2
+DirectSoundWaveData_bw2_battlesuperior_23::
+	.incbin "sound/direct_sound_samples/bw2_battlesuperior_23.bin"
+
+	.align 2
+DirectSoundWaveData_route6_12::
+	.incbin "sound/direct_sound_samples/route6_12.bin"
+
+	.align 2
+DirectSoundWaveData_route6_21::
+	.incbin "sound/direct_sound_samples/route6_21.bin"
+
+	.align 2
+DirectSoundWaveData_route6_22::
+	.incbin "sound/direct_sound_samples/route6_22.bin"

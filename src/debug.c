@@ -4266,7 +4266,13 @@ static void DebugAction_DestroyFollowerNPC(u8 taskId)
     X(MUS_BW_SURF)                  \
     X(MUS_SEQ_BGM_PLEASURE_BOAT)    \
     X(MUS_SEQ_BGM_POKEMON_THEME)    \
-    X(MUS_SEQ_BGM_VS_RIVAL)
+    X(MUS_SEQ_BGM_VS_RIVAL)         \
+    X(MUS_SEQ_BGM_VS_NORAPOKE)      \
+    X(MUS_SEQ_BGM_D_05)             \
+    X(MUS_SEQ_BGM_VS_N_2)           \
+    X(MUS_SEQ_BGM_R_F)              \
+    X(MUS_SEQ_BGM_BATTLESUPERIOR_BW2) \
+    X(MUS_SEQ_BGM_R_D_SP)
 
 #define SOUND_LIST_SE               \
     X(SE_USE_ITEM)                  \

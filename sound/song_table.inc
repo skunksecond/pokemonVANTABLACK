@@ -621,6 +621,12 @@ gSongTable::
 	song mus_seq_bgm_pleasure_boat, MUSIC_PLAYER_BGM, 0
 	song mus_seq_bgm_pokemon_theme, MUSIC_PLAYER_BGM, 0
 	song mus_seq_bgm_vs_rival, MUSIC_PLAYER_BGM, 0
+	song mus_seq_bgm_vs_norapoke, MUSIC_PLAYER_BGM, 0
+	song mus_seq_bgm_d_05, MUSIC_PLAYER_BGM, 0
+	song mus_seq_bgm_vs_n_2, MUSIC_PLAYER_BGM, 0
+	song mus_seq_bgm_r_f, MUSIC_PLAYER_BGM, 0
+	song mus_seq_bgm_battlesuperior_bw2, MUSIC_PLAYER_BGM, 0
+	song mus_seq_bgm_r_d_sp, MUSIC_PLAYER_BGM, 0
 
 	.align 2
 dummy_song_header:

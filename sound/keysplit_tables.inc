@@ -39,9 +39,32 @@ keysplit bw_keysplit_0, 0
     split 1, 77
     split 2, 128
 
+keysplit bw_keysplit_3, 0
+    split 0, 67
+    split 1, 128
+
 keysplit bw_keysplit_10, 0
     split 0, 80
     split 1, 128
+
+keysplit bw_keysplit_13, 0
+    split 0, 56
+    split 1, 68
+    split 2, 128
+
+keysplit bw_keysplit_19, 0
+    split 0, 56
+    split 1, 68
+    split 2, 128
+
+keysplit bw_keysplit_20, 0
+    split 0, 52
+    split 1, 60
+    split 2, 128
+
+keysplit bw_keysplit_26, 0
+    split 0, 53
+    split 2, 128
 
 keysplit bw_keysplit_29, 0
     split 0, 43
@@ -52,6 +75,11 @@ keysplit bw_keysplit_30, 0
     split 1, 75
     split 2, 82
     split 3, 128
+
+keysplit bw_keysplit_32, 0
+    split 0, 65
+    split 1, 74
+    split 2, 128
 
 keysplit bw_keysplit_35, 0
     split 0, 75
@@ -76,9 +104,18 @@ keysplit bw_keysplit_42, 0
     split 1, 68
     split 2, 128
 
-keysplit bw_keysplit_44, 0
+keysplit bw_keysplit_43, 0
     split 0, 77
     split 1, 127
+
+keysplit bw_keysplit_44, 0
+    split 0, 43
+    split 1, 127
+
+keysplit bw_keysplit_48, 0
+    split 0, 83
+    split 1, 100
+    split 2, 127
 
 keysplit bw_keysplit_56, 0
     split 0, 65
@@ -90,3 +127,16 @@ keysplit bw_keysplit_90, 0
     split 1, 63
     split 2, 70
     split 3, 128
+
+keysplit nfinal_17, 0
+    split 0, 66
+    split 1, 128
+
+keysplit nfinal_63, 0
+    split 0, 63
+    split 1, 70
+    split 2, 128
+
+keysplit bw2_bell, 0
+    split 0, 71
+    split 2, 128
