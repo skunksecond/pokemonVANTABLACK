@@ -4272,7 +4272,8 @@ static void DebugAction_DestroyFollowerNPC(u8 taskId)
     X(MUS_SEQ_BGM_VS_N_2)           \
     X(MUS_SEQ_BGM_R_F)              \
     X(MUS_SEQ_BGM_BATTLESUPERIOR_BW2) \
-    X(MUS_SEQ_BGM_R_D_SP)
+    X(MUS_SEQ_BGM_R_D_SP) \
+    X(MUS_SEQ_BGM_E_SUPPORT)
 
 #define SOUND_LIST_SE               \
     X(SE_USE_ITEM)                  \

@@ -627,6 +627,7 @@ gSongTable::
 	song mus_seq_bgm_r_f, MUSIC_PLAYER_BGM, 0
 	song mus_seq_bgm_battlesuperior_bw2, MUSIC_PLAYER_BGM, 0
 	song mus_seq_bgm_r_d_sp, MUSIC_PLAYER_BGM, 0
+	song mus_seq_bgm_e_support, MUSIC_PLAYER_BGM, 0
 
 	.align 2
 dummy_song_header:

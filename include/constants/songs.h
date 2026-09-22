@@ -553,6 +553,7 @@
 #define MUS_SEQ_BGM_R_F             618
 #define MUS_SEQ_BGM_BATTLESUPERIOR_BW2 619
 #define MUS_SEQ_BGM_R_D_SP          620
+#define MUS_SEQ_BGM_E_SUPPORT       621
 
 #define MUS_ROUTE118                0x7FFF  // Map is split into 2 music sections. controlled by GetCurrLocationDefaultMusic().
 

@@ -9535,3 +9535,27 @@ DirectSoundWaveData_route6_21::
 	.align 2
 DirectSoundWaveData_route6_22::
 	.incbin "sound/direct_sound_samples/route6_22.bin"
+
+	.align 2
+DirectSoundWaveData_bw_general_62::
+	.incbin "sound/direct_sound_samples/bw_general_62.bin"
+
+	.align 2
+DirectSoundWaveData_bw_general_63::
+	.incbin "sound/direct_sound_samples/bw_general_63.bin"
+
+	.align 2
+DirectSoundWaveData_bw_general_36::
+	.incbin "sound/direct_sound_samples/bw_general_36.bin"
+
+	.align 2
+DirectSoundWaveData_bw_general_37::
+	.incbin "sound/direct_sound_samples/bw_general_37.bin"
+
+	.align 2
+DirectSoundWaveData_bw_general_38::
+	.incbin "sound/direct_sound_samples/bw_general_38.bin"
+
+	.align 2
+DirectSoundWaveData_bw_general_39::
+	.incbin "sound/direct_sound_samples/bw_general_39.bin"

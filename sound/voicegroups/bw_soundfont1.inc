@@ -3,7 +3,7 @@ voice_group bw_soundfont1
 	voice_square_1 60, 0, 0, 2, 0, 1, 4, 1
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_keysplit voicegroup_bw_3_keysplit, keysplit_bw_keysplit_3
-	voice_directsound 60, 0, DirectSoundWaveData_bicycle_bell, 255, 0, 255, 165
+	voice_keysplit voicegroup_bw_4_keysplit, keysplit_bw_keysplit_3
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_directsound 60, 0, DirectSoundWaveData_nfinal_19, 255, 0, 255, 165
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
@@ -23,7 +23,7 @@ voice_group bw_soundfont1
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_directsound 60, 0, DirectSoundWaveData_vsrival_25, 255, 0, 255, 165
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
+	voice_keysplit voicegroup_bw_24_keysplit, keysplit_bw_keysplit_24
 	voice_directsound 60, 0, DirectSoundWaveData_poketheme_0, 255, 0, 255, 165
 	voice_keysplit voicegroup_bw_26_keysplit, keysplit_bw_keysplit_26
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
@@ -126,4 +126,4 @@ voice_group bw_soundfont1
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_keysplit_all voicegroup_bw_2
-	voice_directsound 60, 0, DirectSoundWaveData_route6_22, 255, 0, 255, 165
+	voice_directsound 60, 0, DirectSoundWaveData_bw_general_39, 255, 0, 255, 165
