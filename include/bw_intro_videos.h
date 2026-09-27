@@ -1,0 +1,6 @@
+#ifndef GUARD_INTRO_VIDEO_SEQUENCE_H
+#define GUARD_INTRO_VIDEO_SEQUENCE_H
+
+void CB2_PlayIntroVideos(void);
+
+#endif // GUARD_INTRO_VIDEO_SEQUENCE_H

@@ -27,16 +27,16 @@
  * A. Binary data
  * --------------------------------------------------------------------------- */
 
-static const u8  sVideoData[]         = INCBIN_U8( "graphics/video/video_data.bin");
-static const u32 sFrameOffsets[]      = INCBIN_U32("graphics/video/frame_offsets.bin");
-static const u8  sClipLut[]           = INCBIN_U8( "graphics/video/clip_lookup_table.bin");
-static const u16 sBigBlockOffsets[]   = INCBIN_U16("graphics/video/big_block_offsets.bin");
-static const u16 sZoneBlockOffsets[]  = INCBIN_U16("graphics/video/zone_block_offsets.bin");
-static const u16 sZoneMotionOffsets[] = INCBIN_U16("graphics/video/zone_motion_offsets.bin");
+static const u8  sVideoData[]         = INCBIN_U8( "graphics/logo_video/video_data.bin");
+static const u32 sFrameOffsets[]      = INCBIN_U32("graphics/logo_video/frame_offsets.bin");
+static const u8  sClipLut[]           = INCBIN_U8( "graphics/logo_video/clip_lookup_table.bin");
+static const u16 sBigBlockOffsets[]   = INCBIN_U16("graphics/logo_video/big_block_offsets.bin");
+static const u16 sZoneBlockOffsets[]  = INCBIN_U16("graphics/logo_video/zone_block_offsets.bin");
+static const u16 sZoneMotionOffsets[] = INCBIN_U16("graphics/logo_video/zone_motion_offsets.bin");
 #if VIDEO_AUDIO_FORMAT != 2
-static const u8  sAudioData[]         = INCBIN_U8( "graphics/video/audio_data.bin");
+static const u8  sAudioData[]         = INCBIN_U8( "graphics/logo_video/audio_data.bin");
 #ifdef VIDEO_FRAME_AUDIO_COUNT
-static const u32 sFrameAudioOffsets[] = INCBIN_U32("graphics/video/frame_audio_offsets.bin");
+static const u32 sFrameAudioOffsets[] = INCBIN_U32("graphics/logo_video/frame_audio_offsets.bin");
 #endif
 #endif
 
@@ -702,15 +702,15 @@ static void VideoPlayerVBlankCb(void) {
     }
 }
 
-u8 VideoPlayer_Start(void) {
+u8 LogoVideoPlayer_Start(void) {
     return CreateTask(Task_VideoPlayer, 0);
 }
 
-bool8 VideoPlayer_IsDone(void) {
+bool8 LogoVideoPlayer_IsDone(void) {
     return FindTaskIdByFunc(Task_VideoPlayer) == TASK_NONE;
 }
 
-void VideoPlayer_ForceStop(void) {
+void LogoVideoPlayer_ForceStop(void) {
     u8 taskId = FindTaskIdByFunc(Task_VideoPlayer);
     if (taskId != TASK_NONE)
         gTasks[taskId].tState = 2;
@@ -749,16 +749,18 @@ static void VideoPlayer_Init(u8 taskId) {
     t->tSavedDispcnt = REG_DISPCNT;
     VideoPlayer_InitGpu();
 
+#if VIDEO_AUDIO_FORMAT != 2
     m4aSoundVSyncOff();
     REG_DMA1CNT_H = 0;
     REG_DMA2CNT_H = 0;
     REG_SOUNDCNT_X = 0;
     REG_SOUNDCNT_H = 0;
+#endif
 
     VideoDecoder_Init();
     CpuFastFill(0, sCtx->frameBuf, DISPLAY_WIDTH * DISPLAY_HEIGHT * 2);
     CpuFastCopy(sCtx->frameBuf, (void *)VRAM, DISPLAY_WIDTH * DISPLAY_HEIGHT * 2);
-    VideoSoundInit();
+    // VideoSoundInit();
 
 #if VIDEO_AUDIO_FORMAT == 1
     sSavedTimer1Isr = gIntrTable[6];
@@ -831,13 +833,15 @@ static void VideoPlayer_Cleanup(u8 taskId) {
 #endif
 
     SetVBlankCallback(NULL);
-    REG_SOUNDCNT_X = 0;
-    REG_SOUNDCNT_H = 0;
-    REG_SOUNDCNT_L = 0;
+
+#if VIDEO_AUDIO_FORMAT != 2
+    REG_SOUNDCNT_X = 0; REG_SOUNDCNT_H = 0; REG_SOUNDCNT_L = 0;
     VBlankIntrWait();
-    REG_SOUNDBIAS  = 0x200;
+    REG_SOUNDBIAS = 0x200;
     m4aSoundInit();
     m4aSoundVSyncOn();
+#endif
+
     SetGpuReg(REG_OFFSET_DISPCNT, (u16)gTasks[taskId].tSavedDispcnt);
 
     FREE_AND_SET_NULL(sCtx);
