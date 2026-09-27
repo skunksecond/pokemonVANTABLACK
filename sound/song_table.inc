@@ -630,6 +630,9 @@ gSongTable::
 	song mus_seq_bgm_e_support, MUSIC_PLAYER_BGM, 0
 	song seq_skunksecond_logo, MUSIC_PLAYER_SE1, 1
 	song se_sonic3_explosion_sfx, MUSIC_PLAYER_SE2, 2
+	song mus_seq_bgm_gf_logo, MUSIC_PLAYER_BGM, 0
+	song mus_seq_bgm_title, MUSIC_PLAYER_BGM, 0
+	song mus_seq_bgm_title01, MUSIC_PLAYER_BGM, 0
 
 	.align 2
 dummy_song_header:

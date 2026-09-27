@@ -62,14 +62,14 @@ voice_group bw_soundfont1
 	voice_directsound 60, 0, DirectSoundWaveData_poketheme_15, 255, 0, 255, 165
 	voice_directsound 60, 0, DirectSoundWaveData_vsrival_31, 255, 0, 255, 165
 	voice_directsound 60, 0, DirectSoundWaveData_poketheme_5, 255, 0, 255, 165
+	voice_directsound 60, 0, DirectSoundWaveData_title_4, 255, 0, 255, 165
+	voice_directsound 60, 0, DirectSoundWaveData_title_3, 255, 0, 255, 165
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
+	voice_directsound 60, 0, DirectSoundWaveData_title_9, 255, 0, 255, 165
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0

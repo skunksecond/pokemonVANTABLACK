@@ -234,3 +234,4 @@
 .include "sound/voicegroups/bw_route10.inc"
 .include "sound/voicegroups/bw2_soundfont1.inc"
 .include "sound/voicegroups/seq_skunksecond_logo.inc"
+.include "sound/voicegroups/gf_logo.inc"

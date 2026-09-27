@@ -556,6 +556,9 @@
 #define MUS_SEQ_BGM_E_SUPPORT       621
 #define SEQ_SKUNKSECOND_LOGO        622
 #define SE_SONIC3_EXPLOSION_SFX     623
+#define MUS_SEQ_BGM_GF_LOGO         624
+#define MUS_SEQ_BGM_TITLE           625
+#define MUS_SEQ_BGM_TITLE01         626
 
 #define MUS_ROUTE118                0x7FFF  // Map is split into 2 music sections. controlled by GetCurrLocationDefaultMusic().
 

@@ -9567,3 +9567,51 @@ DirectSoundWaveData_skunksecond_logo::
 	.align 2
 DirectSoundWaveData_s3k_59::
 	.incbin "sound/direct_sound_samples/s3k_59.bin"
+
+	.align 2
+DirectSoundWaveData_gf_logo_1::
+	.incbin "sound/direct_sound_samples/gf_logo_1.bin"
+
+	.align 2
+DirectSoundWaveData_gf_logo_0::
+	.incbin "sound/direct_sound_samples/gf_logo_0.bin"
+
+	.align 2
+DirectSoundWaveData_gf_logo_2::
+	.incbin "sound/direct_sound_samples/gf_logo_2.bin"
+
+	.align 2
+DirectSoundWaveData_gf_logo_4::
+	.incbin "sound/direct_sound_samples/gf_logo_4.bin"
+
+	.align 2
+DirectSoundWaveData_gf_logo_3::
+	.incbin "sound/direct_sound_samples/gf_logo_3.bin"
+
+	.align 2
+DirectSoundWaveData_title_2::
+	.incbin "sound/direct_sound_samples/title_2.bin"
+
+	.align 2
+DirectSoundWaveData_title_1::
+	.incbin "sound/direct_sound_samples/title_1.bin"
+
+	.align 2
+DirectSoundWaveData_title_3::
+	.incbin "sound/direct_sound_samples/title_3.bin"
+
+	.align 2
+DirectSoundWaveData_title_6::
+	.incbin "sound/direct_sound_samples/title_6.bin"
+
+	.align 2
+DirectSoundWaveData_title_5::
+	.incbin "sound/direct_sound_samples/title_5.bin"
+
+	.align 2
+DirectSoundWaveData_title_4::
+	.incbin "sound/direct_sound_samples/title_4.bin"
+
+	.align 2
+DirectSoundWaveData_title_9::
+	.incbin "sound/direct_sound_samples/title_9.bin"
