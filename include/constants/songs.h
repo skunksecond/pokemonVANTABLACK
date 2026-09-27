@@ -554,6 +554,8 @@
 #define MUS_SEQ_BGM_BATTLESUPERIOR_BW2 619
 #define MUS_SEQ_BGM_R_D_SP          620
 #define MUS_SEQ_BGM_E_SUPPORT       621
+#define SEQ_SKUNKSECOND_LOGO        622
+#define SE_SONIC3_EXPLOSION_SFX     623
 
 #define MUS_ROUTE118                0x7FFF  // Map is split into 2 music sections. controlled by GetCurrLocationDefaultMusic().
 

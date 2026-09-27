@@ -4273,7 +4273,8 @@ static void DebugAction_DestroyFollowerNPC(u8 taskId)
     X(MUS_SEQ_BGM_R_F)              \
     X(MUS_SEQ_BGM_BATTLESUPERIOR_BW2) \
     X(MUS_SEQ_BGM_R_D_SP) \
-    X(MUS_SEQ_BGM_E_SUPPORT)
+    X(MUS_SEQ_BGM_E_SUPPORT) \
+    X(SEQ_SKUNKSECOND_LOGO)
 
 #define SOUND_LIST_SE               \
     X(SE_USE_ITEM)                  \
@@ -4544,7 +4545,8 @@ static void DebugAction_DestroyFollowerNPC(u8 taskId)
     X(SE_ARENA_TIMEUP2)             \
     X(SE_PIKE_CURTAIN_CLOSE)        \
     X(SE_PIKE_CURTAIN_OPEN)         \
-    X(SE_SUDOWOODO_SHAKE)
+    X(SE_SUDOWOODO_SHAKE)           \
+    X(SE_SONIC3_EXPLOSION_SFX)
 
 // Create song list
 #define X(songId) [songId] = COMPOUND_STRING(#songId),

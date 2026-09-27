@@ -628,6 +628,8 @@ gSongTable::
 	song mus_seq_bgm_battlesuperior_bw2, MUSIC_PLAYER_BGM, 0
 	song mus_seq_bgm_r_d_sp, MUSIC_PLAYER_BGM, 0
 	song mus_seq_bgm_e_support, MUSIC_PLAYER_BGM, 0
+	song seq_skunksecond_logo, MUSIC_PLAYER_SE1, 1
+	song se_sonic3_explosion_sfx, MUSIC_PLAYER_SE2, 2
 
 	.align 2
 dummy_song_header:

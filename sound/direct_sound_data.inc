@@ -9559,3 +9559,11 @@ DirectSoundWaveData_bw_general_38::
 	.align 2
 DirectSoundWaveData_bw_general_39::
 	.incbin "sound/direct_sound_samples/bw_general_39.bin"
+
+	.align 2
+DirectSoundWaveData_skunksecond_logo::
+	.incbin "sound/direct_sound_samples/skunksecond_logo.bin"
+
+	.align 2
+DirectSoundWaveData_s3k_59::
+	.incbin "sound/direct_sound_samples/s3k_59.bin"
