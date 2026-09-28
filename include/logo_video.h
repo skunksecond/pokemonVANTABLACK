@@ -62,4 +62,4 @@ bool8 LogoVideoPlayer_IsDone(void);
 // Only valid while VideoPlayer_IsDone() == FALSE.
 void  LogoVideoPlayer_ForceStop(void);
 
-#endif // GUARD_VIDEO_H
+#endif // GUARD_LOGO_VIDEO_H

@@ -9,10 +9,10 @@
 // ---------------------------------------------------------------------------
 // Video parameters
 // ---------------------------------------------------------------------------
-#define VIDEO_FRAME_COUNT        427
+#define VIDEO_FRAME_COUNT        329
 #define VIDEO_DISPLAY_WIDTH      240
 #define VIDEO_DISPLAY_HEIGHT     160
-#define VIDEO_TOTAL_BYTES        4253498
+#define VIDEO_TOTAL_BYTES        3406998
 #define VIDEO_FPS_RAW            74659  // fps * 10000
 #define VIDEO_CODEBOOK_SIZE      192
 #define VIDEO_EFFECTIVE_CODEBOOK 254  // 0xFF reserved as marker
@@ -62,4 +62,4 @@ bool8 CoronationVideoPlayer_IsDone(void);
 // Only valid while VideoPlayer_IsDone() == FALSE.
 void  CoronationVideoPlayer_ForceStop(void);
 
-#endif // GUARD_VIDEO_H
+#endif // GUARD_CORONATION_VIDEO_H

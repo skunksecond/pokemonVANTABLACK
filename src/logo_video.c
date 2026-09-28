@@ -825,7 +825,9 @@ static void VideoPlayer_Run(u8 taskId) {
 }
 
 static void VideoPlayer_Cleanup(u8 taskId) {
+#if VIDEO_AUDIO_FORMAT != 2
     SoundStop();
+#endif
 
 #if VIDEO_AUDIO_FORMAT == 1
     gIntrTable[6] = sSavedTimer1Isr;
