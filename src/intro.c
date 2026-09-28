@@ -30,7 +30,6 @@
 #include "constants/battle_anim.h"
 #include "pokemon.h"
 
-#include "video.h"
 #include "bw_intro_videos.h"
 
 /*
