@@ -16,7 +16,7 @@
 
 #include "global.h"
 #include "bg.h"
-#include "video.h"
+#include "coronation_video.h"
 #include "task.h"
 #include "gpu_regs.h"
 #include "m4a.h"
