@@ -9,12 +9,12 @@
 // ---------------------------------------------------------------------------
 // Video parameters
 // ---------------------------------------------------------------------------
-#define VIDEO_FRAME_COUNT        329
+#define VIDEO_FRAME_COUNT        445
 #define VIDEO_DISPLAY_WIDTH      240
 #define VIDEO_DISPLAY_HEIGHT     160
-#define VIDEO_TOTAL_BYTES        3406998
-#define VIDEO_FPS_RAW            74659  // fps * 10000
-#define VIDEO_CODEBOOK_SIZE      192
+#define VIDEO_TOTAL_BYTES        4516722
+#define VIDEO_FPS_RAW            99546  // fps * 10000
+#define VIDEO_CODEBOOK_SIZE      256
 #define VIDEO_EFFECTIVE_CODEBOOK 254  // 0xFF reserved as marker
 
 // Frame type identifiers

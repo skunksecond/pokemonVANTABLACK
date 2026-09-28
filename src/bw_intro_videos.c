@@ -54,26 +54,20 @@ void CB2_PlayIntroVideos(void)
 
     case SEQ_CORONATION:
         switch (sSeqState)
-        {
+         {
         case 0:
             ResetTasks();
-            PlayBGM(MUS_SEQ_BGM_TITLE);        // theme A starts with the video
-            sCoronationBgmTimer = 0;
-            sTeaserBgmStarted = FALSE;
+            PlayBGM(MUS_SEQ_BGM_TITLE);           
             if (CoronationVideoPlayer_Start() != TASK_NONE)
                 sSeqState = 1;
             break;
         case 1:
             RunTasks();
-            sCoronationBgmTimer++;
-            if (!sTeaserBgmStarted
-                && sCoronationBgmTimer >= SECONDS_TO_FRAMES(CORONATION_TEASER_CUE_SECONDS))
-            {
-                PlayBGM(MUS_SEQ_BGM_TITLE01);         // theme B cuts in mid-video
-                sTeaserBgmStarted = TRUE;
-            }
             if (CoronationVideoPlayer_IsDone())
+            {
+                sSeqState = 0;
                 sSeqVideo = SEQ_DONE;
+            }
             break;
         }
         break;
