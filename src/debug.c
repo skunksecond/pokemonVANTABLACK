@@ -4277,7 +4277,8 @@ static void DebugAction_DestroyFollowerNPC(u8 taskId)
     X(SEQ_SKUNKSECOND_LOGO) \
     X(MUS_SEQ_BGM_GF_LOGO) \
     X(MUS_SEQ_BGM_TITLE) \
-    X(MUS_SEQ_BGM_TITLE01)
+    X(MUS_SEQ_BGM_TITLE01) \
+    X(MUS_CASTELIA_CITY)
 
 #define SOUND_LIST_SE               \
     X(SE_USE_ITEM)                  \

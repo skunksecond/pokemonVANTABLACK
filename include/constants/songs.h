@@ -559,6 +559,7 @@
 #define MUS_SEQ_BGM_GF_LOGO         624
 #define MUS_SEQ_BGM_TITLE           625
 #define MUS_SEQ_BGM_TITLE01         626
+#define MUS_CASTELIA_CITY           627
 
 #define MUS_ROUTE118                0x7FFF  // Map is split into 2 music sections. controlled by GetCurrLocationDefaultMusic().
 

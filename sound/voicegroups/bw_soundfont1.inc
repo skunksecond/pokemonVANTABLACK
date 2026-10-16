@@ -49,7 +49,7 @@ voice_group bw_soundfont1
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_keysplit voicegroup_bw_48_keysplit, keysplit_bw_keysplit_48
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
+	voice_keysplit voicegroup_bw_50_keysplit, keysplit_bw_keysplit_13
 	voice_directsound 60, 0, DirectSoundWaveData_poketheme_12, 255, 0, 255, 165
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0

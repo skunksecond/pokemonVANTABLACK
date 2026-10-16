@@ -9615,3 +9615,15 @@ DirectSoundWaveData_title_4::
 	.align 2
 DirectSoundWaveData_title_9::
 	.incbin "sound/direct_sound_samples/title_9.bin"
+
+	.align 2
+DirectSoundWaveData_bw_general_160::
+	.incbin "sound/direct_sound_samples/bw_general_160.bin"
+
+	.align 2
+DirectSoundWaveData_bw_general_161::
+	.incbin "sound/direct_sound_samples/bw_general_161.bin"
+
+	.align 2
+DirectSoundWaveData_bw_general_162::
+	.incbin "sound/direct_sound_samples/bw_general_162.bin"
