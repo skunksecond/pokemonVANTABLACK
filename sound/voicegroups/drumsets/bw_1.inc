@@ -23,6 +23,8 @@ voice_group bw_1, 33
     voice_directsound 48, 0, DirectSoundWaveData_bw_crash1, 255, 0, 255, 0
     voice_directsound 26, 0, DirectSoundWaveData_bw_snare1, 255, 0, 255, 0
     voice_directsound 26, 0, DirectSoundWaveData_route6_12, 255, 0, 255, 0
+    voice_directsound_no_resample 26, 0, DirectSoundWaveData_bw_clap, 0, 3, 255, 16
+    voice_directsound_no_resample 26, 0, DirectSoundWaveData_bw_idek, 255, 0, 255, 0
 
 
 

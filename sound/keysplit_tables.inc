@@ -43,6 +43,10 @@ keysplit bw_keysplit_3, 0
     split 0, 67
     split 1, 128
 
+keysplit bw_keysplit_5, 0
+    split 0, 68
+    split 1, 128
+
 keysplit bw_keysplit_10, 0
     split 0, 80
     split 1, 128
@@ -61,6 +65,12 @@ keysplit bw_keysplit_20, 0
     split 0, 52
     split 1, 60
     split 2, 128
+
+keysplit bw_keysplit_23, 0
+    split 0, 52
+    split 1, 60
+    split 2, 70
+    split 3, 127   
 
 keysplit bw_keysplit_24, 0
     split 0, 52
@@ -117,6 +127,12 @@ keysplit bw_keysplit_43, 0
 keysplit bw_keysplit_44, 0
     split 0, 43
     split 1, 127
+
+keysplit bw_keysplit_47, 0
+    split 0, 71
+    split 1, 78
+    split 2, 87
+    split 3, 127   
 
 keysplit bw_keysplit_48, 0
     split 0, 83

@@ -9627,3 +9627,50 @@ DirectSoundWaveData_bw_general_161::
 	.align 2
 DirectSoundWaveData_bw_general_162::
 	.incbin "sound/direct_sound_samples/bw_general_162.bin"
+	
+DirectSoundWaveData_bw_general_6::
+	.incbin "sound/direct_sound_samples/bw_general_6.bin"
+
+	.align 2
+DirectSoundWaveData_bw_general_7::
+	.incbin "sound/direct_sound_samples/bw_general_7.bin"
+
+	.align 2
+DirectSoundWaveData_bw_general_60::
+	.incbin "sound/direct_sound_samples/bw_general_60.bin"
+
+	.align 2
+DirectSoundWaveData_bw_general_59::
+	.incbin "sound/direct_sound_samples/bw_general_59.bin"
+
+	.align 2
+DirectSoundWaveData_bw_general_61::
+	.incbin "sound/direct_sound_samples/bw_general_61.bin"
+
+	.align 2
+DirectSoundWaveData_bw_general_58::
+	.incbin "sound/direct_sound_samples/bw_general_58.bin"
+
+	.align 2
+DirectSoundWaveData_bw_general_66::
+	.incbin "sound/direct_sound_samples/bw_general_66.bin"
+
+	.align 2
+DirectSoundWaveData_bw_general_65::
+	.incbin "sound/direct_sound_samples/bw_general_65.bin"
+
+	.align 2
+DirectSoundWaveData_bw_general_64::
+	.incbin "sound/direct_sound_samples/bw_general_64.bin"
+
+	.align 2
+DirectSoundWaveData_bw_general_67::
+	.incbin "sound/direct_sound_samples/bw_general_67.bin"
+
+	.align 2
+DirectSoundWaveData_bw_clap::
+	.incbin "sound/direct_sound_samples/bw_clap.bin"
+
+	.align 2
+DirectSoundWaveData_bw_idek::
+	.incbin "sound/direct_sound_samples/bw_idek.bin"
