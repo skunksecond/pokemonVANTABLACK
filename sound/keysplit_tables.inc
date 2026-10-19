@@ -51,7 +51,7 @@ keysplit bw_keysplit_10, 0
     split 0, 80
     split 1, 128
 
-keysplit bw_keysplit_13, 0 @ keysplit 50 as well
+keysplit bw_keysplit_13, 0 @ keysplits 17, 50 as well
     split 0, 56
     split 1, 68
     split 2, 128
@@ -101,7 +101,7 @@ keysplit bw_keysplit_35, 0
     split 0, 75
     split 1, 127
 
-keysplit bw_keysplit_36, 0
+keysplit bw_keysplit_36, 0 @ battlepinch_organ
     split 0, 55
     split 1, 67
     split 2, 128

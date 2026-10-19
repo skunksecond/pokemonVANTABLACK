@@ -4282,6 +4282,9 @@ static void DebugAction_DestroyFollowerNPC(u8 taskId)
     X(MUS_NUVEMA_TOWN) \
     X(MUS_ACCUMULA_TOWN) \
     X(MUS_CASTELIA_CITY)  \
+    X(MUS_E_FRIEND) \
+    X(MUS_BATTLEPINCH) \
+    X(MUS_BW_VS_TRAINER) \
 
 #define SOUND_LIST_SE               \
     X(SE_USE_ITEM)                  \

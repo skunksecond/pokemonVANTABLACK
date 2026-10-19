@@ -8,6 +8,10 @@
 .include "sound/voicegroups/drumsets/bw_1.inc"
 .include "sound/voicegroups/drumsets/bw_2.inc"
 .include "sound/voicegroups/drumsets/n_drumset.inc"
+.include "sound/voicegroups/drumsets/drumkit_80.inc"
+.include "sound/voicegroups/drumsets/drumkit_81.inc"
+.include "sound/voicegroups/drumsets/drumkit_82.inc"
+.include "sound/voicegroups/drumsets/drumkit_83.inc"
 
 @ key splits
 .include "sound/voicegroups/keysplits/piano.inc"
@@ -18,12 +22,14 @@
 .include "sound/voicegroups/keysplits/french_horn.inc"
 
 @ bw music keysplits
+.include "sound/voicegroups/keysplits/battlepinch_organ.inc"
 .include "sound/voicegroups/keysplits/bw_0.inc"
 .include "sound/voicegroups/keysplits/bw_3.inc"
 .include "sound/voicegroups/keysplits/bw_4.inc"
 .include "sound/voicegroups/keysplits/bw_5.inc"
 .include "sound/voicegroups/keysplits/bw_10.inc"
 .include "sound/voicegroups/keysplits/bw_13.inc"
+.include "sound/voicegroups/keysplits/bw_17.inc"
 .include "sound/voicegroups/keysplits/bw_19.inc"
 .include "sound/voicegroups/keysplits/bw_20.inc"
 .include "sound/voicegroups/keysplits/bw_23.inc"
@@ -241,3 +247,4 @@
 .include "sound/voicegroups/bw2_soundfont1.inc"
 .include "sound/voicegroups/seq_skunksecond_logo.inc"
 .include "sound/voicegroups/gf_logo.inc"
+.include "sound/voicegroups/battlepinch.inc"

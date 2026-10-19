@@ -16,7 +16,7 @@ voice_group bw_soundfont1
 	voice_directsound 60, 0, DirectSoundWaveData_poketheme_25, 255, 0, 255, 165
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
+	voice_keysplit voicegroup_bw_17_keysplit, keysplit_bw_keysplit_13
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_keysplit voicegroup_bw_19_keysplit, keysplit_bw_keysplit_19
 	voice_keysplit voicegroup_bw_20_keysplit, keysplit_bw_keysplit_20
@@ -87,7 +87,7 @@ voice_group bw_soundfont1
 	voice_directsound 60, 0, DirectSoundWaveData_nfinal_31, 255, 0, 255, 165
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
+	voice_directsound 60, 0, DirectSoundWaveData_vstrainer_5, 255, 0, 255, 165
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_keysplit voicegroup_bw_90_keysplit, keysplit_bw_keysplit_90
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
@@ -110,6 +110,10 @@ voice_group bw_soundfont1
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
+	voice_keysplit_all voicegroup_drumkit_80
+	voice_keysplit_all voicegroup_drumkit_81
+	voice_keysplit_all voicegroup_drumkit_82
+	voice_keysplit_all voicegroup_drumkit_83
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
@@ -119,11 +123,7 @@ voice_group bw_soundfont1
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
+	voice_square_2 60, 0, 2, 0, 0, 15, 0
+	voice_directsound 60, 0, DirectSoundWaveData_vstrainer_11, 255, 0, 255, 165
 	voice_keysplit_all voicegroup_bw_2
 	voice_directsound 60, 0, DirectSoundWaveData_bw_idek, 0, 3, 255, 16

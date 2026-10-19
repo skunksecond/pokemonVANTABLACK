@@ -1,0 +1,24 @@
+voice_group drumkit_81, 35
+    voice_directsound 60, 0, DirectSoundWaveData_bw_general_107, 255, 0, 252, 221
+    voice_directsound 60, 0, DirectSoundWaveData_bw_general_108, 255, 0, 252, 221
+    voice_directsound 61, 0, DirectSoundWaveData_bw_general_108, 255, 0, 252, 221
+    voice_directsound 60, 0, DirectSoundWaveData_bw_general_171, 255, 0, 252, 221
+    voice_directsound 61, 0, DirectSoundWaveData_bw_general_171, 255, 0, 252, 221
+    voice_directsound 60, 0, DirectSoundWaveData_bw_general_172, 255, 255, 235, 221
+    voice_directsound 61, 0, DirectSoundWaveData_bw_general_172, 255, 255, 235, 221
+    voice_directsound 60, 209, DirectSoundWaveData_bw_general_101, 255, 239, 0, 221
+    voice_directsound 61, 209, DirectSoundWaveData_bw_general_101, 255, 239, 0, 221
+    voice_directsound 62, 209, DirectSoundWaveData_bw_general_101, 255, 239, 0, 221
+    voice_directsound 63, 209, DirectSoundWaveData_bw_general_101, 255, 239, 0, 221
+    voice_directsound 60, 209, DirectSoundWaveData_bw_general_104, 255, 241, 0, 221
+    voice_directsound 61, 209, DirectSoundWaveData_bw_general_104, 255, 241, 0, 221
+    voice_directsound 62, 209, DirectSoundWaveData_bw_general_104, 255, 241, 0, 221
+    voice_directsound 60, 0, DirectSoundWaveData_bw_general_42, 255, 242, 0, 221
+    voice_directsound 61, 0, DirectSoundWaveData_bw_general_42, 255, 242, 0, 221
+    voice_directsound 62, 0, DirectSoundWaveData_bw_general_42, 255, 242, 0, 221
+    voice_directsound 60, 148, DirectSoundWaveData_bw_general_27, 255, 249, 0, 233
+    voice_directsound 60, 159, DirectSoundWaveData_bw_general_155, 255, 249, 0, 221
+    voice_directsound 61, 159, DirectSoundWaveData_bw_general_155, 255, 249, 0, 221
+    voice_directsound 60, 213, DirectSoundWaveData_bw_general_180, 255, 249, 0, 221
+    voice_directsound 61, 213, DirectSoundWaveData_bw_general_180, 255, 249, 0, 221
+    voice_directsound 60, 168, DirectSoundWaveData_bw_general_44, 255, 250, 0, 221

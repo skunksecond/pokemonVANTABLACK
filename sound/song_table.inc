@@ -637,6 +637,9 @@ gSongTable::
 	song mus_seq_bgm_e_rival, MUSIC_PLAYER_BGM, 0
 	song mus_nuvema_town, MUSIC_PLAYER_BGM, 0
 	song mus_accumula_town, MUSIC_PLAYER_BGM, 0
+	song mus_e_friend, MUSIC_PLAYER_BGM, 0
+	song mus_battlepinch, MUSIC_PLAYER_BGM, 0
+	song mus_bw_vs_trainer, MUSIC_PLAYER_BGM, 0
 
 	.align 2
 dummy_song_header:
