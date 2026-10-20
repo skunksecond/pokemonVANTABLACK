@@ -566,6 +566,11 @@
 #define MUS_E_FRIEND                631
 #define MUS_BATTLEPINCH             632
 #define MUS_BW_VS_TRAINER           633
+#define SE_TB_KARA                  634
+#define SE_SHOOTER                  635
+#define SE_DECIDE1                  636
+#define SE_DECIDE2                  637
+#define SE_SELECT1                  638
 #define MUS_ROUTE118                0x7FFF  // Map is split into 2 music sections. controlled by GetCurrLocationDefaultMusic().
 
 #define MUS_NONE                    0xFFFF

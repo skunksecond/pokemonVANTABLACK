@@ -640,6 +640,11 @@ gSongTable::
 	song mus_e_friend, MUSIC_PLAYER_BGM, 0
 	song mus_battlepinch, MUSIC_PLAYER_BGM, 0
 	song mus_bw_vs_trainer, MUSIC_PLAYER_BGM, 0
+	song se_tb_kara, MUSIC_PLAYER_SE1, 1
+	song se_shooter, MUSIC_PLAYER_SE1, 1
+	song se_decide1, MUSIC_PLAYER_SE1, 1
+	song se_decide2, MUSIC_PLAYER_SE1, 1
+	song se_select1, MUSIC_PLAYER_SE1, 1
 
 	.align 2
 dummy_song_header:

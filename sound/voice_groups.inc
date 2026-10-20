@@ -248,3 +248,4 @@
 .include "sound/voicegroups/seq_skunksecond_logo.inc"
 .include "sound/voicegroups/gf_logo.inc"
 .include "sound/voicegroups/battlepinch.inc"
+.include "sound/voicegroups/bw_soundeffects.inc"

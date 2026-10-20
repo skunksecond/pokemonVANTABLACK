@@ -4556,7 +4556,12 @@ static void DebugAction_DestroyFollowerNPC(u8 taskId)
     X(SE_PIKE_CURTAIN_CLOSE)        \
     X(SE_PIKE_CURTAIN_OPEN)         \
     X(SE_SUDOWOODO_SHAKE)           \
-    X(SE_SONIC3_EXPLOSION_SFX)
+    X(SE_SONIC3_EXPLOSION_SFX)      \
+    X(SE_TB_KARA)                   \
+    X(SE_SHOOTER)                   \
+    X(SE_DECIDE1)                   \
+    X(SE_DECIDE2)                   \
+    X(SE_SELECT1)
 
 // Create song list
 #define X(songId) [songId] = COMPOUND_STRING(#songId),

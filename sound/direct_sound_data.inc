@@ -10006,3 +10006,23 @@ DirectSoundWaveData_vstrainer_5::
 	.align 2
 DirectSoundWaveData_vstrainer_11::
 	.incbin "sound/direct_sound_samples/vstrainer_11.bin"
+
+	.align 2
+DirectSoundWaveData_kara::
+	.incbin "sound/direct_sound_samples/kara.bin"
+
+	.align 2
+DirectSoundWaveData_shooter::
+	.incbin "sound/direct_sound_samples/shooter.bin"
+
+	.align 2
+DirectSoundWaveData_select1::
+	.incbin "sound/direct_sound_samples/select1.bin"
+
+	.align 2
+DirectSoundWaveData_decide2::
+	.incbin "sound/direct_sound_samples/decide2.bin"
+
+	.align 2
+DirectSoundWaveData_decide1::
+	.incbin "sound/direct_sound_samples/decide1.bin"
