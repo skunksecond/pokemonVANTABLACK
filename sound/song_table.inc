@@ -645,6 +645,11 @@ gSongTable::
 	song se_decide1, MUSIC_PLAYER_SE1, 1
 	song se_decide2, MUSIC_PLAYER_SE1, 1
 	song se_select1, MUSIC_PLAYER_SE1, 1
+	song mus_win_wildpoke, MUSIC_PLAYER_BGM, 0
+	song mus_win_trainer, MUSIC_PLAYER_BGM, 0
+	song mus_win_gym, MUSIC_PLAYER_BGM, 0
+	song mus_win_plasma, MUSIC_PLAYER_BGM, 0
+	song mus_e_doctor, MUSIC_PLAYER_BGM, 0
 
 	.align 2
 dummy_song_header:

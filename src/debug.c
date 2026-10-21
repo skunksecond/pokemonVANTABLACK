@@ -4285,6 +4285,11 @@ static void DebugAction_DestroyFollowerNPC(u8 taskId)
     X(MUS_E_FRIEND) \
     X(MUS_BATTLEPINCH) \
     X(MUS_BW_VS_TRAINER) \
+    X(MUS_WIN_WILDPOKE) \
+    X(MUS_WIN_TRAINER) \
+    X(MUS_WIN_GYM) \
+    X(MUS_WIN_PLASMA) \
+    X(MUS_E_DOCTOR) \
 
 #define SOUND_LIST_SE               \
     X(SE_USE_ITEM)                  \

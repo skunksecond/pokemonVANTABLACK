@@ -571,6 +571,11 @@
 #define SE_DECIDE1                  636
 #define SE_DECIDE2                  637
 #define SE_SELECT1                  638
+#define MUS_WIN_WILDPOKE            639
+#define MUS_WIN_TRAINER             640
+#define MUS_WIN_GYM                 641
+#define MUS_WIN_PLASMA              642
+#define MUS_E_DOCTOR                643
 #define MUS_ROUTE118                0x7FFF  // Map is split into 2 music sections. controlled by GetCurrLocationDefaultMusic().
 
 #define MUS_NONE                    0xFFFF
