@@ -5207,6 +5207,8 @@ u16 GetBattleBGM(void)
                 return MUS_VS_RIVAL;
             if (!StringCompare(GetTrainerNameFromId(TRAINER_BATTLE_PARAM.opponentA), gText_BattleWallyName))
                 return MUS_VS_TRAINER;
+            if (IsNuvemaIntroBattle(TRAINER_BATTLE_PARAM.opponentA))
+                return MUS_SEQ_BGM_VS_RIVAL;
             return MUS_VS_RIVAL;
         case TRAINER_CLASS_ELITE_FOUR:
             return MUS_VS_ELITE_FOUR;

@@ -110,15 +110,12 @@ static const u8 sStarterLabelCoords[STARTER_MON_COUNT][2] =
     {8, 4},
 };
 
-#define GRASS_STARTER (IS_FRLG ? SPECIES_BULBASAUR  : SPECIES_TREECKO)
-#define FIRE_STARTER  (IS_FRLG ? SPECIES_CHARMANDER : SPECIES_TORCHIC)
-#define WATER_STARTER (IS_FRLG ? SPECIES_SQUIRTLE   : SPECIES_MUDKIP )
-
+// Restore the three vanilla entries above if this picker is reused for FRLG/Hoenn.
 static const u16 sStarterMon[STARTER_MON_COUNT] =
 {
-    GRASS_STARTER,
-    FIRE_STARTER,
-    WATER_STARTER,
+    SPECIES_SNIVY,
+    SPECIES_TEPIG,
+    SPECIES_OSHAWOTT,
 };
 
 static const struct BgTemplate sBgTemplates[3] =

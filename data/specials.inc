@@ -177,6 +177,7 @@ gSpecials::
 	def_special StartWallClock, waitstate=1
 	def_special Special_ViewWallClock, waitstate=1
 	def_special ChooseStarter, waitstate=1
+	def_special ChooseStarterNoBattle, waitstate=1
 	def_special StartWallyTutorialBattle, waitstate=1
 	def_special ChangePokemonNickname, waitstate=1
 	def_special ChoosePartyMon, waitstate=1

@@ -16877,3 +16877,83 @@ Double Battle: No
 Kyogre
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+/* bw stuff */
+
+=== TRAINER_BIANCA_VS_SNIVY_NUVEMA_TOWN ===
+Name: Bianca
+Class: Rival
+Pic: RS May
+Gender: Female
+Music: Male
+Double Battle: No
+AI: Basic Trainer
+
+Snivy
+Level: 5
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_BIANCA_VS_TEPIG_NUVEMA_TOWN ===
+Name: Bianca
+Class: Rival
+Pic: RS May
+Gender: Female
+Music: Male
+Double Battle: No
+AI: Basic Trainer
+
+Tepig
+Level: 5
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_BIANCA_VS_OSHAWOTT_NUVEMA_TOWN ===
+Name: Bianca
+Class: Rival
+Pic: RS May
+Gender: Female
+Music: Male
+Double Battle: No
+AI: Basic Trainer
+
+Oshawott
+Level: 5
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_CHEREN_VS_SNIVY_NUVEMA_TOWN ===
+Name: Cheren
+Class: Rival
+Pic: RS Brendan
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Basic Trainer
+
+Snivy
+Level: 5
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_CHEREN_VS_TEPIG_NUVEMA_TOWN ===
+Name: Cheren
+Class: Rival
+Pic: RS Brendan
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Basic Trainer
+
+Tepig
+Level: 5
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_CHEREN_VS_OSHAWOTT_NUVEMA_TOWN ===
+Name: Cheren
+Class: Rival
+Pic: RS Brendan
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Basic Trainer
+
+Oshawott
+Level: 5
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe

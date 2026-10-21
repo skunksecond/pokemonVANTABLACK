@@ -859,12 +859,18 @@
 #define TRAINER_LEAF                        852
 #define TRAINER_BRENDAN_PLACEHOLDER         853
 #define TRAINER_MAY_PLACEHOLDER             854
+#define TRAINER_BIANCA_VS_SNIVY_NUVEMA_TOWN 855
+#define TRAINER_BIANCA_VS_TEPIG_NUVEMA_TOWN 856
+#define TRAINER_BIANCA_VS_OSHAWOTT_NUVEMA_TOWN 857
+#define TRAINER_CHEREN_VS_SNIVY_NUVEMA_TOWN 858
+#define TRAINER_CHEREN_VS_TEPIG_NUVEMA_TOWN 859
+#define TRAINER_CHEREN_VS_OSHAWOTT_NUVEMA_TOWN 860
 
 // NOTE: Because each Trainer uses a flag to determine when they are defeated, there is only space for 9 additional trainers before trainer flag space overflows
 //       More space can be made by shifting flags around in constants/flags.h or changing how trainer flags are handled
 //       MAX_TRAINERS_COUNT can be increased but will take up additional saveblock space
 
-#define TRAINERS_COUNT_EMERALD     855
+#define TRAINERS_COUNT_EMERALD     861
 #define MAX_TRAINERS_COUNT_EMERALD 864
 
 #if IS_FRLG

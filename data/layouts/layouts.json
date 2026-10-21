@@ -9337,8 +9337,8 @@
     {
       "id": "LAYOUT_PROTAG_HOUSE",
       "name": "ProtagHouse_Layout",
-      "width": 20,
-      "height": 20,
+      "width": 13,
+      "height": 10,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/ProtagHouse/border.bin",

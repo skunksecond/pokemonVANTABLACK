@@ -971,6 +971,18 @@ static void CB2_GiveStarter(void)
     BattleTransition_Start(B_TRANSITION_BLUR);
 }
 
+static void CB2_ReturnFromStarterPick(void)
+{
+    VarSet(VAR_STARTER_MON, gSpecialVar_Result);
+    SetMainCallback2(CB2_ReturnToFieldContinueScriptPlayMapMusic);
+}
+
+void ChooseStarterNoBattle(void)
+{
+    SetMainCallback2(CB2_ChooseStarter);
+    gMain.savedCallback = CB2_ReturnFromStarterPick;
+}
+
 static void CB2_StartFirstBattle(void)
 {
     UpdatePaletteFade();
@@ -1266,6 +1278,23 @@ u8 GetRivalBattleFlags(void)
     return TRAINER_BATTLE_PARAM.rivalBattleFlags;
 }
 
+bool8 IsNuvemaIntroBattle(u16 trainerId)
+{
+    // These battles continue after a loss instead of sending the player to the Pokémon Center.
+    switch (trainerId)
+    {
+    case TRAINER_BIANCA_VS_SNIVY_NUVEMA_TOWN:
+    case TRAINER_BIANCA_VS_TEPIG_NUVEMA_TOWN:
+    case TRAINER_BIANCA_VS_OSHAWOTT_NUVEMA_TOWN:
+    case TRAINER_CHEREN_VS_SNIVY_NUVEMA_TOWN:
+    case TRAINER_CHEREN_VS_TEPIG_NUVEMA_TOWN:
+    case TRAINER_CHEREN_VS_OSHAWOTT_NUVEMA_TOWN:
+        return TRUE;
+    default:
+        return FALSE;
+    }
+}
+
 bool8 GetTrainerFlag(void)
 {
     if (CurrentBattlePyramidLocation() != PYRAMID_LOCATION_NONE)
@@ -1324,7 +1353,6 @@ void BattleSetup_StartTrainerBattle(void)
             gBattleTypeFlags = (BATTLE_TYPE_TRAINER);
         }
     }
-
     if (GetTrainerBattleMode() == TRAINER_BATTLE_EARLY_RIVAL && GetRivalBattleFlags() & RIVAL_BATTLE_TUTORIAL)
         gBattleTypeFlags |= BATTLE_TYPE_FIRST_BATTLE;
 
@@ -1450,7 +1478,8 @@ static void CB2_EndTrainerBattle(void)
         if (IsPlayerDefeated(gBattleOutcome) == TRUE)
         {
             gSpecialVar_Result = TRUE;
-            if (GetRivalBattleFlags() & RIVAL_BATTLE_HEAL_AFTER)
+            if ((GetRivalBattleFlags() & RIVAL_BATTLE_HEAL_AFTER)
+             || IsNuvemaIntroBattle(TRAINER_BATTLE_PARAM.opponentA))
             {
                 HealPlayerParty();
             }

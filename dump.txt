@@ -1,0 +1,64 @@
+0	MSG0000	false	Cheren: [VAR TRNAME(0)]!\c\nI heard from Professor Juniper.\nWe can have a Pokémon?\c
+1	MSG0001	false	...\n...\c\nWhat's keeping Bianca?\c
+2	MSG0002	false	Bianca: Am I a little late again?\nSo-oooo-orry!\c
+3	MSG0003	false	Cheren: Bianca...\c\nI've known for ten years that you\nhave no sense of time, but...seriously...\c\nToday's the day we can get a\nPokémon from Professor Juniper!\c
+4	MSG0004	false	Bianca: I know. Sorry, [VAR TRNAME(0)].\nSorry, Cheren.\c
+5	MSG0005	false	Bianca: So, where are the Pokémon?\c\nThey were delivered to [VAR TRNAME(0)]'s\nhouse, so [VAR TRNAME(0)] gets first pick.\c
+6	MSG0006	false	Cheren: Naturally.\c
+7	MSG0007	false	The Pokémon are waiting for us\ninside that gift box.\c\nOK, [VAR TRNAME(0)], you go first and take\na peek at the gift box.\c\nI want to meet the Pokémon right now!
+8	MSG0008	false	Cheren: Aren't you going to check\nout the gift box? Where are you going?\c
+9	MSG0009	false	Cheren: Would you get a move on\nand open the gift box already?\c\nI'm sure the Pokémon are just as\nexcited to meet us!
+10	MSG0010	false	Bianca: Ooh!\nWhat kind of Pokémon could they be?
+11	MSG0011	false	[VAR TRNAME(0)] opened the gift box!\c
+12	MSG0012	false	I've brought three Pokémon,\none for you and one for each\nof your friends. Please settle\nyour choices politely.\nEnjoy your Pokémon!\n                --Professor Juniper
+13	MSG0013	false	
+14	MSG0014	false	
+15	MSG0015	false	
+16	MSG0016	false	[CENTER]The Water-type Pokémon\n[CENTER][VAR PKNAME(1)]
+17	MSG0017	false	[CENTER]The Fire-type Pokémon\n[CENTER][VAR PKNAME(1)]
+18	MSG0018	false	[CENTER]The Grass-type Pokémon\n[CENTER][VAR PKNAME(1)]
+19	MSG0019	false	Choose a Pokémon.
+20	MSG0020	false	Is this the Pokémon you want?
+21	MSG0021	false	Pick this one!
+22	MSG0022	false	YES
+23	MSG0023	false	NO
+24	MSG0024	false	[VAR TRNAME(0)] chose\n[VAR PKNAME(1)]!
+25	MSG0025	false	Bianca: OK, I'll take this Pokémon!\nCheren, that one's yours!\c
+26	MSG0026	false	Cheren: Hey, how come you get to pick\nout my Pokémon?\c\nOh, never mind. I wanted [VAR PKNAME(1)]\nfrom the start, anyway.\c
+27	MSG0027	false	Bianca: Everyone has chosen a Pokémon!\n...So that's that!\c\nHey, I know!\nLet's have a Pokémon battle!\c
+28	MSG0028	false	Cheren: Honestly, Bianca...\c\nEven though they're still weak Pokémon,\nyou shouldn't have Pokémon battles\r\ninside a house.\c
+29	MSG0029	false	Bianca: Don't be a worrywart!\nThese little ones are weak, like you said.\c\nWe have to let them battle so they'll get\nstronger. It's settled, [VAR TRNAME(0)]!\r\nGet ready for a Pokémon battle!\c
+30	MSG0030	false	
+31	MSG0031	false	...The box is empty.
+32	MSG0032	false	
+33	MSG0033	false	
+34	MSG0034	false	
+35	MSG0035	false	
+36	MSG0036	false	
+37	MSG0037	false	Bianca: Wow...\c\n[VAR TRNAME(0)], you're gonna be\nan awesome Trainer someday, I can tell!\c\nNo doubt!\c
+38	MSG0038	false	Bianca: Wha...?\c\nI got so absorbed in having my Pokémon\nuse moves, I won before even realizing...\c
+39	MSG0039	false	Cheren: Uh...\n...\c\nBianca, would you take a look around?\c
+40	MSG0040	false	Bianca: Wh-whoa!\nWhat happened?!\c
+41	MSG0041	false	Wow! Pokémon are amaaaaazing!!\nSo little, but so strong!\c\nI'm so glad that I get to have a Pokémon!\c\n...Oh.\nUm, sorry about your room, [VAR TRNAME(0)].\c
+42	MSG0042	false	Cheren: You...are completely hopeless.\c\nHere!\nI'll restore your Pokémon for you.\c
+43	MSG0043	false	Cheren healed Bianca's Pokémon!
+44	MSG0044	false	[VAR TRNAME(0)]'s Pokémon needs\nto be fixed up, too.\c
+45	MSG0045	false	Cheren healed [VAR TRNAME(0)]'s Pokémon!
+46	MSG0046	false	Cheren: It's amazing that you won\nwithout your Pokémon's losing any\r\nenergy, which is called HP.\c\nBut you used some of the moves'\nPower Points, or PP, though.\c
+47	MSG0047	false	Bianca: Hey, Cheren!\nHow about you battle, too?\c\nWith all you know, I'm sure you can\nbattle without turning the room into\r\na disaster area like I did!\c
+48	MSG0048	false	Cheren: I believe you're right!\c\nIt'll be no problem for me to keep\nthe room from getting any messier.\c\nBesides, it's not fair if you two are the\nonly ones who get to have fun battling!\c
+49	MSG0049	false	
+50	MSG0050	false	
+51	MSG0051	false	
+52	MSG0052	false	
+53	MSG0053	false	It's decided. You'll be my opponent...\nin our first Pokémon battle!\c\nLet's see what you can do, [VAR PKNAME(1)]!\c
+54	MSG0054	false	
+55	MSG0055	false	Cheren: I made a strange blunder\nin my first battle, but\r\nthis feeling I have...\r\n...I'm finally a Trainer.\c\nBut first, we'd better go apologize to\nyour mother about this messed-up room.\c
+56	MSG0056	false	Cheren: This feeling...\nFinally, I'm a Trainer.\c\nOn top of that, we'd better go apologize\nto your mother about this room.\c
+57	MSG0057	false	Bianca: Oh!\nI'd better come, too!\c
+58	MSG0058	false	It's a Wii console!\nIt has a Wii Remote!
+59	MSG0059	false	It's a Wii console!\c\nIt's not even scratched!
+60	MSG0060	false	It's a flat-screen television\nthat Dad bought!
+61	MSG0061	false	It's a bed.\c\nThe sheets smell great because\nMom just washed them!
+62	MSG0062	false	The bed's a mess!
+63	MSG0063	false	[VAR TRNAME(0)] checked the PC.\c\nPokémon Basics...\c\nPeople live alongside Pokémon in\nthis world.\c\nThe people who battle with Pokémon\nare called Pokémon Trainers.

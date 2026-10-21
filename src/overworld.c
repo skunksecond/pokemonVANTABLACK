@@ -1937,7 +1937,7 @@ void CB2_NewGame(void)
     if (IS_FRLG)
         gFieldCallback = FieldCB_WarpExitFadeFromBlack;
     else
-        gFieldCallback = ExecuteTruckSequence;
+        gFieldCallback = NULL; // TODO: change to custom callback for pokemon black's opening scene
     gFieldCallback2 = NULL;
     DoMapLoadLoop(&gMain.state);
     SetFieldVBlankCallback();
