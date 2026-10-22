@@ -79,7 +79,7 @@ voice_group bw_route10
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
-	voice_keysplit_all voicegroup_bw_1
+	voice_keysplit_all voicegroup_drumkit_80
 	voice_keysplit_all voicegroup_bw_2
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_directsound 60, 0, DirectSoundWaveData_nfinal_20, 255, 0, 255, 165

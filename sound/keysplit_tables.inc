@@ -93,8 +93,8 @@ keysplit bw_keysplit_30, 0
     split 3, 128
 
 keysplit bw_keysplit_32, 0
-    split 0, 65
-    split 1, 74
+    split 0, 69
+    split 1, 77
     split 2, 128
 
 keysplit bw_keysplit_35, 0

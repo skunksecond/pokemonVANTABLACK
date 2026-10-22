@@ -10026,3 +10026,15 @@ DirectSoundWaveData_decide2::
 	.align 2
 DirectSoundWaveData_decide1::
 	.incbin "sound/direct_sound_samples/decide1.bin"
+
+	.align 2
+DirectSoundWaveData_doctor_18::
+	.incbin "sound/direct_sound_samples/doctor_18.bin"
+
+	.align 2
+DirectSoundWaveData_doctor_17::
+	.incbin "sound/direct_sound_samples/doctor_17.bin"
+
+	.align 2
+DirectSoundWaveData_doctor_16::
+	.incbin "sound/direct_sound_samples/doctor_16.bin"
