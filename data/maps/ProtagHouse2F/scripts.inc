@@ -1,9 +1,7 @@
 @ ProtagHouse2F scripts: BW-style bedroom intro.
 @ Local IDs = order of object_events in map.json (1-indexed). Don't reorder them in Porymap.
 @ Intro state (VAR_PROTAG_INTRO_STATE): 0 start, 1 open the box, 2 choosing, 3 room trashed, 4 done.
-@ Temp flags: FLAG_TEMP_1 = starter balls hidden, _2 = Bianca hidden, _3 = Cheren hidden.
 @ Text labels (ProtagHouse2F_Text_N) come from convert_text.py; N = MSG number from your dump.
-@ If you built the speaker-tail textbox system, add your setvar VAR_TEXTBOX_SPEAKER lines before msgboxes.
 
 .set LOCALID_CHEREN, 1
 .set LOCALID_BIANCA, 2
@@ -155,26 +153,28 @@ ProtagHouse2F_EventScript_RivalsPick::
 	msgbox ProtagHouse2F_Text_28, MSGBOX_DEFAULT
 	msgbox ProtagHouse2F_Text_29, MSGBOX_DEFAULT
 	switch VAR_STARTER_MON
-	case 0, ProtagHouse2F_EventScript_BiancaBattle_VsSnivy
-	case 1, ProtagHouse2F_EventScript_BiancaBattle_VsTepig
-	case 2, ProtagHouse2F_EventScript_BiancaBattle_VsOshawott
+	case 0, ProtagHouse2F_EventScript_BiancaBattle_VsOshawott
+	case 1, ProtagHouse2F_EventScript_BiancaBattle_VsSnivy
+	case 2, ProtagHouse2F_EventScript_BiancaBattle_VsTepig
 	end
 
 @ ---------------------------------------------------------------- battle 1: Bianca
 
 ProtagHouse2F_EventScript_BiancaBattle_VsSnivy::
-	trainerbattle_earlyrival TRAINER_BIANCA_VS_SNIVY_NUVEMA_TOWN, RIVAL_BATTLE_HEAL_AFTER, ProtagHouse2F_Text_37, ProtagHouse2F_Text_38
+	trainerbattle_earlyrival TRAINER_BIANCA_VS_SNIVY_NUVEMA_TOWN, RIVAL_BATTLE_HEAL_AFTER, ProtagHouse2F_Text_37, NULL
 	goto ProtagHouse2F_EventScript_AfterBiancaBattle
 
 ProtagHouse2F_EventScript_BiancaBattle_VsTepig::
-	trainerbattle_earlyrival TRAINER_BIANCA_VS_TEPIG_NUVEMA_TOWN, RIVAL_BATTLE_HEAL_AFTER, ProtagHouse2F_Text_37, ProtagHouse2F_Text_38
+	trainerbattle_earlyrival TRAINER_BIANCA_VS_TEPIG_NUVEMA_TOWN, RIVAL_BATTLE_HEAL_AFTER, ProtagHouse2F_Text_37, NULL
 	goto ProtagHouse2F_EventScript_AfterBiancaBattle
 
 ProtagHouse2F_EventScript_BiancaBattle_VsOshawott::
-	trainerbattle_earlyrival TRAINER_BIANCA_VS_OSHAWOTT_NUVEMA_TOWN, RIVAL_BATTLE_HEAL_AFTER, ProtagHouse2F_Text_37, ProtagHouse2F_Text_38
+	trainerbattle_earlyrival TRAINER_BIANCA_VS_OSHAWOTT_NUVEMA_TOWN, RIVAL_BATTLE_HEAL_AFTER, ProtagHouse2F_Text_37, NULL
 	goto ProtagHouse2F_EventScript_AfterBiancaBattle
 
 ProtagHouse2F_EventScript_AfterBiancaBattle::
+	goto_if_eq VAR_RESULT, FALSE, ProtagHouse2F_EventScript_RoomTrashed
+	msgbox ProtagHouse2F_Text_38, MSGBOX_DEFAULT
 	goto ProtagHouse2F_EventScript_RoomTrashed
 
 ProtagHouse2F_EventScript_RoomTrashed::
@@ -208,23 +208,25 @@ ProtagHouse2F_EventScript_RoomTrashed::
 ProtagHouse2F_EventScript_CherenHasTepig2::
 	bufferspeciesname STR_VAR_1, SPECIES_TEPIG
 	msgbox ProtagHouse2F_Text_53, MSGBOX_DEFAULT
-	trainerbattle_earlyrival TRAINER_CHEREN_VS_SNIVY_NUVEMA_TOWN, RIVAL_BATTLE_HEAL_AFTER, ProtagHouse2F_Text_55, ProtagHouse2F_Text_56
+	trainerbattle_earlyrival TRAINER_CHEREN_VS_TEPIG_NUVEMA_TOWN, RIVAL_BATTLE_HEAL_AFTER, ProtagHouse2F_Text_55, NULL
 	goto ProtagHouse2F_EventScript_AfterCherenBattle
 
 ProtagHouse2F_EventScript_CherenHasOshawott2::
 	bufferspeciesname STR_VAR_1, SPECIES_OSHAWOTT
 	msgbox ProtagHouse2F_Text_53, MSGBOX_DEFAULT
-	trainerbattle_earlyrival TRAINER_CHEREN_VS_TEPIG_NUVEMA_TOWN, RIVAL_BATTLE_HEAL_AFTER, ProtagHouse2F_Text_55, ProtagHouse2F_Text_56
+	trainerbattle_earlyrival TRAINER_CHEREN_VS_OSHAWOTT_NUVEMA_TOWN, RIVAL_BATTLE_HEAL_AFTER, ProtagHouse2F_Text_55, NULL
 	goto ProtagHouse2F_EventScript_AfterCherenBattle
 
 ProtagHouse2F_EventScript_CherenHasSnivy2::
 	bufferspeciesname STR_VAR_1, SPECIES_SNIVY
 	msgbox ProtagHouse2F_Text_53, MSGBOX_DEFAULT
-	trainerbattle_earlyrival TRAINER_CHEREN_VS_OSHAWOTT_NUVEMA_TOWN, RIVAL_BATTLE_HEAL_AFTER, ProtagHouse2F_Text_55, ProtagHouse2F_Text_56
+	trainerbattle_earlyrival TRAINER_CHEREN_VS_SNIVY_NUVEMA_TOWN, RIVAL_BATTLE_HEAL_AFTER, ProtagHouse2F_Text_55, NULL
 	goto ProtagHouse2F_EventScript_AfterCherenBattle
 @ ---------------------------------------------------------------- battle 2 aftermath
 
 ProtagHouse2F_EventScript_AfterCherenBattle::
+	goto_if_eq VAR_RESULT, FALSE, ProtagHouse2F_EventScript_IntroWrapUp
+	msgbox ProtagHouse2F_Text_56, MSGBOX_DEFAULT
 	goto ProtagHouse2F_EventScript_IntroWrapUp
 
 ProtagHouse2F_EventScript_IntroWrapUp::
@@ -319,7 +321,7 @@ ProtagHouse2F_Movement_CherenLeave:
 	walk_up
 	step_end
 
-@ ---------------------------------------------------------------- text (paste convert_text.py output below)
+@ ---------------------------------------------------------------- text
 ProtagHouse2F_Text_0:
         .string "Cheren: {PLAYER}!\p"
         .string "I heard from Professor Juniper.\n"
