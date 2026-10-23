@@ -650,6 +650,8 @@ gSongTable::
 	song mus_win_gym, MUSIC_PLAYER_BGM, 0
 	song mus_win_plasma, MUSIC_PLAYER_BGM, 0
 	song mus_e_doctor, MUSIC_PLAYER_BGM, 0
+	song mus_starting, MUSIC_PLAYER_BGM, 0
+	song mus_starting2, MUSIC_PLAYER_BGM, 0
 
 	.align 2
 dummy_song_header:
