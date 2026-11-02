@@ -652,6 +652,9 @@ gSongTable::
 	song mus_e_doctor, MUSIC_PLAYER_BGM, 0
 	song mus_starting, MUSIC_PLAYER_BGM, 0
 	song mus_starting2, MUSIC_PLAYER_BGM, 0
+	song mus_e_tsureteke1, MUSIC_PLAYER_BGM, 0
+	song mus_e_tsureteke2, MUSIC_PLAYER_BGM, 0
+	song mus_dreamyard, MUSIC_PLAYER_BGM, 0
 
 	.align 2
 dummy_song_header:

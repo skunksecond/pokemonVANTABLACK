@@ -10038,3 +10038,43 @@ DirectSoundWaveData_doctor_17::
 	.align 2
 DirectSoundWaveData_doctor_16::
 	.incbin "sound/direct_sound_samples/doctor_16.bin"
+
+	.align 2
+DirectSoundWaveData_winplasma_2::
+	.incbin "sound/direct_sound_samples/winplasma_2.bin"
+
+	.align 2
+DirectSoundWaveData_winplasma_4::
+	.incbin "sound/direct_sound_samples/winplasma_4.bin"
+
+	.align 2
+DirectSoundWaveData_winplasma_0::
+	.incbin "sound/direct_sound_samples/winplasma_0.bin"
+
+	.align 2
+DirectSoundWaveData_winplasma_1::
+	.incbin "sound/direct_sound_samples/winplasma_1.bin"
+
+	.align 2
+DirectSoundWaveData_tsureteke_7::
+	.incbin "sound/direct_sound_samples/tsureteke_7.bin"
+
+	.align 2
+DirectSoundWaveData_tsureteke_8::
+	.incbin "sound/direct_sound_samples/tsureteke_8.bin"
+
+	.align 2
+DirectSoundWaveData_tsureteke_9::
+	.incbin "sound/direct_sound_samples/tsureteke_9.bin"
+
+	.align 2
+DirectSoundWaveData_tsureteke2_6::
+	.incbin "sound/direct_sound_samples/tsureteke2_6.bin"
+
+	.align 2
+DirectSoundWaveData_tsureteke2_7::
+	.incbin "sound/direct_sound_samples/tsureteke2_7.bin"
+
+	.align 2
+DirectSoundWaveData_tsureteke2_8::
+	.incbin "sound/direct_sound_samples/tsureteke2_8.bin"
