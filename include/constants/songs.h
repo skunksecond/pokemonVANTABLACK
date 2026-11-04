@@ -581,6 +581,11 @@
 #define MUS_E_TSURETEKE1            646
 #define MUS_E_TSURETEKE2            647
 #define MUS_DREAMYARD               648
+#define MUS_GATE                    649
+#define MUS_SKYARROW_BRIDGE_SFX     650
+#define MUS_E_N                     651
+#define MUS_E_SAGE                  652
+#define MUS_VS_N                    653
 #define MUS_ROUTE118                0x7FFF  // Map is split into 2 music sections. controlled by GetCurrLocationDefaultMusic().
 
 #define MUS_NONE                    0xFFFF

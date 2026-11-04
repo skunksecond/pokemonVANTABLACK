@@ -680,6 +680,14 @@ bool32 Script_MatchesSpecial(const u8 *script, void *funcPtr)
         return TRUE;
     return FALSE;
 }
+// custom c functions
+bool8 IsFirstMonAtFullHP(void)
+{
+    u16 hp = GetMonData(&gPlayerParty[0], MON_DATA_HP);
+    u16 maxHp = GetMonData(&gPlayerParty[0], MON_DATA_MAX_HP);
+
+    return (hp == maxHp);
+}
 
 // FRLG
 void DisableMsgBoxWalkaway(void)

@@ -655,6 +655,11 @@ gSongTable::
 	song mus_e_tsureteke1, MUSIC_PLAYER_BGM, 0
 	song mus_e_tsureteke2, MUSIC_PLAYER_BGM, 0
 	song mus_dreamyard, MUSIC_PLAYER_BGM, 0
+	song mus_gate, MUSIC_PLAYER_BGM, 0
+	song mus_skyarrow_bridge_sfx, MUSIC_PLAYER_BGM, 0
+	song mus_e_n, MUSIC_PLAYER_BGM, 0
+	song mus_e_sage, MUSIC_PLAYER_BGM, 0
+	song mus_vs_n, MUSIC_PLAYER_BGM, 0
 
 	.align 2
 dummy_song_header:

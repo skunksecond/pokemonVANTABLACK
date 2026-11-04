@@ -10078,3 +10078,39 @@ DirectSoundWaveData_tsureteke2_7::
 	.align 2
 DirectSoundWaveData_tsureteke2_8::
 	.incbin "sound/direct_sound_samples/tsureteke2_8.bin"
+
+	.align 2
+DirectSoundWaveData_bw_general_35::
+	.incbin "sound/direct_sound_samples/bw_general_35.bin"
+
+	.align 2
+DirectSoundWaveData_bw_general_34::
+	.incbin "sound/direct_sound_samples/bw_general_34.bin"
+
+	.align 2
+DirectSoundWaveData_bw_general_33::
+	.incbin "sound/direct_sound_samples/bw_general_33.bin"
+
+	.align 2
+DirectSoundWaveData_skyarrowsfx_2::
+	.incbin "sound/direct_sound_samples/skyarrowsfx_2.bin"
+
+	.align 2
+DirectSoundWaveData_skyarrowsfx_14::
+	.incbin "sound/direct_sound_samples/skyarrowsfx_14.bin"
+
+	.align 2
+DirectSoundWaveData_skyarrowsfx_28::
+	.incbin "sound/direct_sound_samples/skyarrowsfx_28.bin"
+
+	.align 2
+DirectSoundWaveData_bw_general_115::
+	.incbin "sound/direct_sound_samples/bw_general_115.bin"
+
+	.align 2
+DirectSoundWaveData_bw_general_116::
+	.incbin "sound/direct_sound_samples/bw_general_116.bin"
+
+	.align 2
+DirectSoundWaveData_bw_general_117::
+	.incbin "sound/direct_sound_samples/bw_general_117.bin"

@@ -4295,6 +4295,11 @@ static void DebugAction_DestroyFollowerNPC(u8 taskId)
     X(MUS_E_TSURETEKE1) \
     X(MUS_E_TSURETEKE2) \
     X(MUS_DREAMYARD) \
+    X(MUS_GATE) \
+    X(MUS_SKYARROW_BRIDGE_SFX) \
+    X(MUS_E_N) \
+    X(MUS_E_SAGE) \
+    X(MUS_VS_N) \
 
 #define SOUND_LIST_SE               \
     X(SE_USE_ITEM)                  \

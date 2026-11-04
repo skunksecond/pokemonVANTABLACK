@@ -1,7 +1,5 @@
-@ ProtagHouse2F scripts: BW-style bedroom intro.
-@ Local IDs = order of object_events in map.json (1-indexed). Don't reorder them in Porymap.
+@ Local IDs = order of object_events in map.json (1-indexed).
 @ Intro state (VAR_PROTAG_INTRO_STATE): 0 start, 1 open the box, 2 choosing, 3 room trashed, 4 done.
-@ Text labels (ProtagHouse2F_Text_N) come from convert_text.py; N = MSG number from your dump.
 
 .set LOCALID_CHEREN, 1
 .set LOCALID_BIANCA, 2
@@ -83,7 +81,7 @@ ProtagHouse2F_EventScript_BiancaHurryUp::
 ProtagHouse2F_EventScript_DontLeaveYet::
 	lockall
 	msgbox ProtagHouse2F_Text_8, MSGBOX_DEFAULT
-	applymovement OBJ_EVENT_ID_PLAYER, ProtagHouse2F_Movement_WalkLeft  @ push the player back; adjust to your layout
+	applymovement OBJ_EVENT_ID_PLAYER, ProtagHouse2F_Movement_WalkLeft
 	waitmovement 0
 	releaseall
 	end
@@ -194,8 +192,15 @@ ProtagHouse2F_EventScript_RoomTrashed::
 	waitmessage
 	waitfanfare
 	closemessage
-	special HealPlayerParty
-	msgbox ProtagHouse2F_Text_46, MSGBOX_DEFAULT   @ the PP line from your screenshot
+	
+	@ Check health and store in VAR_RESULT
+	specialvar VAR_RESULT, IsFirstMonAtFullHP
+	compare VAR_RESULT, 1
+	goto_if_ne ProtagHouse2F_SkipText46
+
+	msgbox ProtagHouse2F_Text_46, MSGBOX_DEFAULT  
+
+ProtagHouse2F_SkipText46:: 
 	msgbox ProtagHouse2F_Text_47, MSGBOX_DEFAULT
 	msgbox ProtagHouse2F_Text_48, MSGBOX_DEFAULT
 	switch VAR_STARTER_MON
@@ -203,6 +208,7 @@ ProtagHouse2F_EventScript_RoomTrashed::
 	case 1, ProtagHouse2F_EventScript_CherenHasOshawott2
 	case 2, ProtagHouse2F_EventScript_CherenHasSnivy2
 	end
+
 
 @ Re-buffer Cheren's starter name for msg 53 (STR_VAR_1 gets overwritten by other commands)
 ProtagHouse2F_EventScript_CherenHasTepig2::
@@ -280,7 +286,7 @@ ProtagHouse2F_EventScript_PC::
 	msgbox ProtagHouse2F_Text_63, MSGBOX_SIGN
 	end
 
-@ ---------------------------------------------------------------- movements (tune to your room)
+@ ---------------------------------------------------------------- movements
 
 ProtagHouse2F_Movement_FaceLeft:
 	face_left

@@ -15,7 +15,7 @@ voice_group bw_soundfont1
 	voice_keysplit voicegroup_bw_13_keysplit, keysplit_bw_keysplit_13
 	voice_directsound 60, 0, DirectSoundWaveData_poketheme_25, 255, 0, 255, 165
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
+	voice_keysplit voicegroup_bw_16_keysplit, keysplit_bw_keysplit_16
 	voice_keysplit voicegroup_bw_17_keysplit, keysplit_bw_keysplit_13
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_keysplit voicegroup_bw_19_keysplit, keysplit_bw_keysplit_19
@@ -44,7 +44,7 @@ voice_group bw_soundfont1
 	voice_keysplit voicegroup_bw_42_keysplit, keysplit_bw_keysplit_42
 	voice_keysplit voicegroup_bw_43_keysplit, keysplit_bw_keysplit_43
 	voice_keysplit voicegroup_bw_44_keysplit, keysplit_bw_keysplit_44
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
+	voice_keysplit voicegroup_bw_45_keysplit, keysplit_bw_keysplit_45
 	voice_directsound 60, 0, DirectSoundWaveData_vsrival_26, 255, 0, 255, 165
 	voice_keysplit voicegroup_bw_47_keysplit, keysplit_bw_keysplit_47
 	voice_keysplit voicegroup_bw_48_keysplit, keysplit_bw_keysplit_48
