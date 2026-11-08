@@ -30,7 +30,7 @@ voice_group bw_soundfont1
 	voice_directsound 60, 0, DirectSoundWaveData_nfinal_28, 255, 0, 255, 165
 	voice_keysplit voicegroup_bw_29_keysplit, keysplit_bw_keysplit_29
 	voice_keysplit voicegroup_bw_30_keysplit, keysplit_bw_keysplit_30
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
+	voice_keysplit voicegroup_bw_31_keysplit, keysplit_bw_keysplit_31
 	voice_keysplit voicegroup_bw_32_keysplit, keysplit_bw_keysplit_32
 	voice_directsound 60, 0, DirectSoundWaveData_poketheme_4, 255, 0, 255, 165
 	voice_directsound 60, 0, DirectSoundWaveData_vsrival_17, 255, 0, 255, 165

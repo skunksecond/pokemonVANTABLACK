@@ -102,6 +102,12 @@ keysplit bw_keysplit_30, 0
     split 2, 82
     split 3, 128
 
+keysplit bw_keysplit_31, 0
+    split 0, 46
+    split 1, 54
+    split 2, 63
+    split 3, 127
+
 keysplit bw_keysplit_32, 0
     split 0, 69
     split 1, 77

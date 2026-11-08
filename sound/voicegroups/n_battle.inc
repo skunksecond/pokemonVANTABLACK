@@ -60,7 +60,7 @@ voice_group n_battle
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_directsound 60, 0, DirectSoundWaveData_vsrival_23, 255, 0, 255, 165
 	voice_directsound 60, 0, DirectSoundWaveData_poketheme_15, 255, 0, 255, 165
-	voice_directsound 60, 0, DirectSoundWaveData_vsrival_31, 255, 0, 255, 165
+	voice_directsound 60, 0, DirectSoundWaveData_sample_21, 255, 0, 255, 165
 	voice_directsound 60, 0, DirectSoundWaveData_poketheme_5, 255, 0, 255, 165
 	voice_keysplit voicegroup_n_final_63, keysplit_nfinal_63
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0

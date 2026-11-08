@@ -10114,3 +10114,27 @@ DirectSoundWaveData_bw_general_116::
 	.align 2
 DirectSoundWaveData_bw_general_117::
 	.incbin "sound/direct_sound_samples/bw_general_117.bin"
+
+	.align 2
+DirectSoundWaveData_bw_general_191::
+	.incbin "sound/direct_sound_samples/bw_general_191.bin"
+
+	.align 2
+DirectSoundWaveData_bw_general_188::
+	.incbin "sound/direct_sound_samples/bw_general_188.bin"
+
+	.align 2
+DirectSoundWaveData_bw_general_186::
+	.incbin "sound/direct_sound_samples/bw_general_186.bin"
+
+	.align 2
+DirectSoundWaveData_bw_general_192::
+	.incbin "sound/direct_sound_samples/bw_general_192.bin"
+
+	.align 2
+DirectSoundWaveData_bw_general_126::
+	.incbin "sound/direct_sound_samples/bw_general_126.bin"
+
+	.align 2
+DirectSoundWaveData_sample_21::
+	.incbin "sound/direct_sound_samples/sample_21.bin"

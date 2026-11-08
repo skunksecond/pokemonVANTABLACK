@@ -40,6 +40,7 @@
 .include "sound/voicegroups/keysplits/bw_27.inc"
 .include "sound/voicegroups/keysplits/bw_29.inc"
 .include "sound/voicegroups/keysplits/bw_30.inc"
+.include "sound/voicegroups/keysplits/bw_31.inc"
 .include "sound/voicegroups/keysplits/bw_32.inc"
 .include "sound/voicegroups/keysplits/bw_35.inc"
 .include "sound/voicegroups/keysplits/bw_36.inc"
