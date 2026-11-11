@@ -586,6 +586,7 @@
 #define MUS_E_N                     651
 #define MUS_E_SAGE                  652
 #define MUS_VS_N                    653
+#define MUS_ENTRALINK               654
 #define MUS_ROUTE118                0x7FFF  // Map is split into 2 music sections. controlled by GetCurrLocationDefaultMusic().
 
 #define MUS_NONE                    0xFFFF
