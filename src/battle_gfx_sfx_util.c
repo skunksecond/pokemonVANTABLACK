@@ -1059,29 +1059,43 @@ void ClearBehindSubstituteBit(enum BattlerId battler)
 
 void HandleLowHpMusicChange(struct Pokemon *mon, enum BattlerId battler)
 {
-    u16 hp = GetMonData(mon, MON_DATA_HP);
-    u16 maxHP = GetMonData(mon, MON_DATA_MAX_HP);
+    u16 hp;
+    u16 maxHP;
+
+    if (gMain.inBattle)
+    {
+        hp = gBattleMons[battler].hp;
+        maxHP = gBattleMons[battler].maxHP;
+    }
+    else
+    {
+        hp = GetMonData(mon, MON_DATA_HP);
+        maxHP = GetMonData(mon, MON_DATA_MAX_HP);
+    }
 
     if (GetHPBarLevel(hp, maxHP) == HP_BAR_RED)
     {
         if (!gBattleSpritesDataPtr->battlerData[battler].lowHpSong)
         {
             if (!gBattleSpritesDataPtr->battlerData[GetPartnerBattler(battler)].lowHpSong)
-                PlaySE(SE_LOW_HEALTH);
+                PlayBGM(MUS_BATTLEPINCH);
             gBattleSpritesDataPtr->battlerData[battler].lowHpSong = 1;
         }
     }
     else
     {
+        if (!gBattleSpritesDataPtr->battlerData[battler].lowHpSong)
+            return;
+
         gBattleSpritesDataPtr->battlerData[battler].lowHpSong = 0;
         if (!IsDoubleBattle())
         {
-            m4aSongNumStop(SE_LOW_HEALTH);
+            PlayBattleBGM();
             return;
         }
         if (IsDoubleBattle() && !gBattleSpritesDataPtr->battlerData[GetPartnerBattler(battler)].lowHpSong)
         {
-            m4aSongNumStop(SE_LOW_HEALTH);
+            PlayBattleBGM();
             return;
         }
     }
@@ -1095,7 +1109,7 @@ void BattleStopLowHpSound(void)
     if (IsDoubleBattle())
         gBattleSpritesDataPtr->battlerData[GetPartnerBattler(playerBattler)].lowHpSong = 0;
 
-    m4aSongNumStop(SE_LOW_HEALTH);
+    m4aMPlayStop(&gMPlayInfo_BGM);
 }
 
 u8 GetMonHPBarLevel(struct Pokemon *mon)
