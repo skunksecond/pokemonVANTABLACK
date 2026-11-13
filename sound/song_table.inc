@@ -638,7 +638,7 @@ gSongTable::
 	song mus_nuvema_town, MUSIC_PLAYER_BGM, 0
 	song mus_accumula_town, MUSIC_PLAYER_BGM, 0
 	song mus_e_friend, MUSIC_PLAYER_BGM, 0
-	song mus_battlepinch, MUSIC_PLAYER_BGM, 0
+	song mus_battlepinch, MUSIC_PLAYER_SE3, 3
 	song mus_bw_vs_trainer, MUSIC_PLAYER_BGM, 0
 	song se_tb_kara, MUSIC_PLAYER_SE1, 1
 	song se_shooter, MUSIC_PLAYER_SE1, 1

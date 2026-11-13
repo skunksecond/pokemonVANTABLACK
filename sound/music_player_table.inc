@@ -2,7 +2,7 @@
 	.equiv NUM_TRACKS_BGM, 12
 	.equiv NUM_TRACKS_SE1, 3
 	.equiv NUM_TRACKS_SE2, 9
-	.equiv NUM_TRACKS_SE3, 1
+	.equiv NUM_TRACKS_SE3, 10
 
 	.bss
 	.align 2
